@@ -1,0 +1,168 @@
+2019-06-01 17:08:00,373 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:08:00,523 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:08:00,551 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=bdbf6501-4f67-46f8-86e5-ae72ba0b27e5
+2019-06-01 17:08:00,553 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-01 17:08:00,554 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:08:00,569 ERROR (GlobalExceptionHandler.java:33)- no login
+2019-06-01 17:08:22,228 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:08:22,239 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-06-01 17:08:22,239 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:08:22,240 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:08:22,241 INFO (MyShiroRealm.java:39)- 前端传过来的用户名为：hdh
+2019-06-01 17:08:22,264 INFO (MyShiroRealm.java:45)- user：UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0)
+2019-06-01 17:08:22,289 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@754f7087
+2019-06-01 17:08:22,358 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:08:22,364 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:08:22,371 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-01 17:08:22,372 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-01 17:08:22,372 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:08:22,382 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0)]
+2019-06-01 17:08:22,385 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginLog/saveLog
+2019-06-01 17:08:22,386 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:08:22,387 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:08:22,404 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-06-01 17:08:27,223 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:08:27,234 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-01 17:08:27,235 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-01 17:08:27,235 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:08:27,240 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0)]
+2019-06-01 17:08:29,143 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:08:29,158 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-01 17:08:29,158 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-01 17:08:29,159 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:08:29,163 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0)]
+2019-06-01 17:08:31,811 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:08:31,842 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginLog/getLog
+2019-06-01 17:08:31,843 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:08:31,843 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:08:31,882 INFO (WebLogAspect.java:56)- RESPONSE : [LoginLogInfoDTO(loginTime=2019-06-01 17:08:22, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:45:41, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:42:34, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:38:08, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:33:28, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:21:04, loginLocation=安徽省合肥市  (210.45.209.*))]
+2019-06-01 17:08:47,218 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:08:47,226 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginLog/getLog
+2019-06-01 17:08:47,226 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:08:47,227 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:08:47,237 INFO (WebLogAspect.java:56)- RESPONSE : [LoginLogInfoDTO(loginTime=2019-06-01 17:08:22, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:45:41, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:42:34, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:38:08, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:33:28, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:21:04, loginLocation=安徽省合肥市  (210.45.209.*))]
+2019-06-01 17:08:49,335 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:08:49,344 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/phoneNum
+2019-06-01 17:08:49,345 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:08:49,345 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:08:49,348 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:08:53,314 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:08:53,342 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/getOldCode
+2019-06-01 17:08:53,342 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:08:53,342 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:08:54,773 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:09:17,338 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:09:17,349 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/verifyOldNum
+2019-06-01 17:09:17,413 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:09:17,414 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:09:17,420 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:09:17,989 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:09:18,005 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/phoneNum
+2019-06-01 17:09:18,005 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:09:18,007 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:09:18,010 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:09:31,611 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:09:31,641 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/verifyOldNum
+2019-06-01 17:09:31,642 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:09:31,642 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:09:31,649 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:09:44,778 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:09:44,788 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/getNewCode
+2019-06-01 17:09:44,789 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:09:44,790 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:09:44,965 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:09:58,579 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:09:58,590 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/verifyNewNum
+2019-06-01 17:09:58,590 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:09:58,590 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:09:58,618 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:09:58,697 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:09:58,713 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-01 17:09:58,713 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-01 17:09:58,714 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:09:58,718 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0)]
+2019-06-01 17:10:09,358 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:10:09,367 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/phoneNum
+2019-06-01 17:10:09,367 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:10:09,367 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:10:09,370 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:10:16,574 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:10:16,583 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginLog/getLog
+2019-06-01 17:10:16,583 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:10:16,584 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:10:16,592 INFO (WebLogAspect.java:56)- RESPONSE : [LoginLogInfoDTO(loginTime=2019-06-01 17:08:22, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:45:41, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:42:34, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:38:08, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:33:28, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:21:04, loginLocation=安徽省合肥市  (210.45.209.*))]
+2019-06-01 17:12:17,350 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:12:17,365 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/phoneNum
+2019-06-01 17:12:17,366 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:12:17,367 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:12:17,372 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:12:20,642 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:12:20,652 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/getOldCode
+2019-06-01 17:12:20,653 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:12:20,653 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:12:20,756 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:12:36,040 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:12:36,059 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/verifyOldNum
+2019-06-01 17:12:36,059 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:12:36,060 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:12:36,073 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:12:43,562 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:12:43,574 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/getNewCode
+2019-06-01 17:12:43,574 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:12:43,574 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:12:43,732 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:13:00,403 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:13:00,412 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/verifyNewNum
+2019-06-01 17:13:00,414 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:13:00,414 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:13:00,421 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:13:00,511 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:13:00,523 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-01 17:13:00,524 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-01 17:13:00,525 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:13:00,532 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0)]
+2019-06-01 17:21:28,053 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:21:28,073 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/phoneNum
+2019-06-01 17:21:28,075 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:21:28,075 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:21:28,078 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:21:35,169 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:21:35,179 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/phoneNum
+2019-06-01 17:21:35,180 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:21:35,180 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:21:35,183 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:29:08,723 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:29:08,735 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/phoneNum
+2019-06-01 17:29:08,736 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:29:08,737 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:29:08,755 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:29:25,302 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:29:25,311 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/phoneNum
+2019-06-01 17:29:25,312 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:29:25,312 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:29:25,317 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:29:26,851 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:29:26,861 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginLog/getLog
+2019-06-01 17:29:26,861 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:29:26,862 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:29:26,873 INFO (WebLogAspect.java:56)- RESPONSE : [LoginLogInfoDTO(loginTime=2019-06-01 17:08:22, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:45:41, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:42:34, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:38:08, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:33:28, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:21:04, loginLocation=安徽省合肥市  (210.45.209.*))]
+2019-06-01 17:29:28,871 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:29:28,880 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/phoneNum
+2019-06-01 17:29:28,881 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:29:28,882 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:29:28,914 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:30:43,164 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:30:43,185 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/phoneNum
+2019-06-01 17:30:43,185 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:30:43,186 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:30:43,191 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47f8dc0c
+2019-06-01 17:30:46,288 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:30:46,302 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginLog/getLog
+2019-06-01 17:30:46,303 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-01 17:30:46,303 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:30:46,311 INFO (WebLogAspect.java:56)- RESPONSE : [LoginLogInfoDTO(loginTime=2019-06-01 17:08:22, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:45:41, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:42:34, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:38:08, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:33:28, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-05-31 19:21:04, loginLocation=安徽省合肥市  (210.45.209.*))]
+2019-06-01 17:30:49,829 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-01 17:30:49,839 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-01 17:30:49,840 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-01 17:30:49,840 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-01 17:30:49,846 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0)]

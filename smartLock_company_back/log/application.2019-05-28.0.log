@@ -1,0 +1,270 @@
+2019-05-28 09:52:53,034 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12500 (E:\study\javaProject\thesis\smartLock_company_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_company_back)
+2019-05-28 09:52:53,044 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-28 09:52:53,044 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-28 09:53:00,988 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 8.793 seconds (JVM running for 10.472)
+2019-05-28 09:53:14,055 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 09:53:14,361 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 09:53:14,395 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=b1bda0dc-7fe7-48cb-9b7a-c396c6aa24fe
+2019-05-28 09:53:14,396 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 09:53:14,397 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 09:53:14,407 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-28 09:53:27,704 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 09:53:27,740 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-28 09:53:27,740 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-28 09:53:27,741 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 09:53:27,744 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-28 09:53:27,964 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-28 09:53:27,991 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@29a21e8f
+2019-05-28 09:53:28,088 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 09:53:28,100 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 09:53:28,101 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 09:53:28,102 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 09:53:28,143 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-28 09:53:44,511 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 09:53:44,522 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 09:53:44,522 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 09:53:44,523 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 09:53:44,534 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-28 09:56:19,908 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 09:56:19,923 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 09:56:19,923 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 09:56:19,924 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 09:56:19,932 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-28 10:07:31,693 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 10:07:31,709 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 10:07:31,715 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 10:07:31,715 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 10:07:31,723 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-28 10:08:38,215 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 10:08:38,233 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 10:08:38,234 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 10:08:38,234 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 10:08:38,239 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-28 10:10:46,568 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 10:10:46,586 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 10:10:46,587 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 10:10:46,587 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 10:10:46,601 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-28 10:24:21,707 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 10:24:21,747 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 10:24:21,751 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 10:24:21,752 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 10:24:21,800 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-28 10:24:55,185 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 10:24:55,201 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 10:24:55,202 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 10:24:55,202 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 10:24:55,214 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-28 10:29:38,833 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 10:29:38,854 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 10:29:38,855 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 10:29:38,855 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 10:29:38,863 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-28 10:29:51,534 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 10:29:51,545 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 10:29:51,545 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 10:29:51,545 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 10:29:51,550 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-28 10:30:30,337 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 10:30:30,652 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 10:30:30,671 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=9cb1efa1-ca94-4945-8d97-32a1b9d7e447
+2019-05-28 10:30:30,675 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 10:30:30,675 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 10:30:30,716 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-28 11:35:27,800 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 11:35:27,921 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-28 11:35:27,928 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-28 11:35:27,928 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 11:35:27,968 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-28 11:35:28,081 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-28 11:35:28,185 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@15e311cb
+2019-05-28 11:35:28,244 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 11:35:28,298 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-28 11:35:28,298 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 11:35:28,298 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 11:35:28,394 INFO (KaptchaController.java:55)- ae2d
+2019-05-28 11:35:30,996 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-28 12:58:25,681 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 12:58:25,905 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-28 12:58:25,908 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-28 12:58:25,909 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 12:58:25,917 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-28 12:58:25,990 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-28 12:58:25,995 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@2cd57cf2
+2019-05-28 12:58:26,040 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 12:58:26,048 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-28 12:58:26,049 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 12:58:26,049 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 12:58:26,058 INFO (KaptchaController.java:55)- 8da7
+2019-05-28 12:58:26,228 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-28 16:23:47,555 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 16:23:47,892 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 16:23:47,949 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=93af8864-f4a0-4571-9116-047dc158adbb
+2019-05-28 16:23:47,956 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 16:23:47,957 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 16:23:47,987 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-28 16:26:32,526 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 16:26:32,872 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 16:26:32,922 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-28 16:26:32,923 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 16:26:32,923 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 16:26:32,923 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-28 16:28:24,482 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 16:28:24,522 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 16:28:24,537 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-28 16:28:24,537 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 16:28:24,538 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 16:28:24,539 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-28 16:29:11,172 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 16:29:11,202 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 16:29:11,211 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-28 16:29:11,213 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 16:29:11,213 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 16:29:11,215 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-28 16:34:07,681 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 16:34:07,912 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 16:34:07,925 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-28 16:34:07,925 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 16:34:07,925 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 16:34:07,927 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-28 17:03:10,251 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 17:03:10,985 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/register/user
+2019-05-28 17:03:10,992 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-28 17:03:10,993 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 17:03:12,058 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@26339aa9
+2019-05-28 17:28:13,987 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 17:28:14,097 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 17:28:14,130 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=345392c7-ff1e-4188-93fe-32a482bd2d0d
+2019-05-28 17:28:14,135 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 17:28:14,135 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 17:28:14,148 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-28 20:19:51,041 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 20:19:51,339 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-28 20:19:51,369 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-28 20:19:51,372 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 20:19:51,407 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-28 20:19:51,792 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-28 20:19:51,838 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@432951af
+2019-05-28 20:19:51,981 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 20:19:52,001 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-28 20:19:52,003 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 20:19:52,003 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 20:19:52,026 INFO (KaptchaController.java:55)- 8344
+2019-05-28 20:19:52,350 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-28 20:21:40,668 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 20:21:40,685 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-28 20:21:40,685 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 20:21:40,686 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 20:21:40,689 INFO (KaptchaController.java:55)- 3855
+2019-05-28 20:21:40,733 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-28 20:22:03,414 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 20:22:03,423 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-28 20:22:03,424 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 20:22:03,425 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 20:22:03,435 INFO (KaptchaController.java:55)- a478
+2019-05-28 20:22:03,482 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-28 20:23:00,503 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 20:23:00,512 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-28 20:23:00,514 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 20:23:00,514 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 20:23:00,518 INFO (KaptchaController.java:55)- bc24
+2019-05-28 20:23:00,555 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-28 20:23:22,063 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 20:23:22,069 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-28 20:23:22,070 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 20:23:22,070 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 20:23:22,074 INFO (KaptchaController.java:55)- ce67
+2019-05-28 20:23:22,107 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-28 20:23:25,470 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 20:23:25,477 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-28 20:23:25,478 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 20:23:25,478 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 20:23:25,483 INFO (KaptchaController.java:55)- 232b
+2019-05-28 20:23:25,517 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-28 20:23:33,437 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 20:23:33,452 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-28 20:23:33,452 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 20:23:33,452 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 20:23:33,457 INFO (KaptchaController.java:55)- 2be6
+2019-05-28 20:23:33,502 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-28 20:23:39,836 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 20:23:39,843 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-28 20:23:39,844 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 20:23:39,844 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 20:23:39,849 INFO (KaptchaController.java:55)- 4adc
+2019-05-28 20:23:39,880 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-28 21:14:14,672 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 21:14:15,233 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-28 21:14:15,250 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 21:14:15,251 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 21:14:15,313 INFO (KaptchaController.java:55)- dad4
+2019-05-28 21:14:15,424 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-28 21:15:47,894 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 21:15:47,929 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 21:15:47,954 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-28 21:15:47,956 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 21:15:47,958 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 21:15:47,981 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-28 22:20:41,412 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 22:20:41,622 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-28 22:20:41,638 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 22:20:41,638 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 22:20:41,675 INFO (KaptchaController.java:55)- 6e88
+2019-05-28 22:20:41,788 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-28 22:21:32,494 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 22:21:32,525 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 22:21:32,540 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-28 22:21:32,541 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 22:21:32,541 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 22:21:32,568 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-28 22:25:21,920 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 22:25:22,008 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 22:25:22,019 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-28 22:25:22,019 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 22:25:22,020 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 22:25:22,021 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-28 22:25:47,893 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 22:25:47,944 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-28 22:25:47,944 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-28 22:25:47,944 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 22:25:47,948 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-28 22:25:48,061 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-28 22:25:49,838 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@114f3d8d
+2019-05-28 22:25:50,043 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 22:25:50,063 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 22:25:50,067 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 22:25:50,067 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 22:25:50,123 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}, AdminInfo{id=9, username='你好', password='72d1c9f599b7462ce945eff65bf4a6e9', salt='你好'}]
+2019-05-28 22:28:10,691 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 22:28:10,712 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 22:28:10,714 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 22:28:10,714 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 22:28:10,722 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}, AdminInfo{id=9, username='你好', password='72d1c9f599b7462ce945eff65bf4a6e9', salt='你好'}]
+2019-05-28 22:28:30,425 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 22:28:30,435 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 22:28:30,437 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 22:28:30,438 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 22:28:30,447 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}, AdminInfo{id=9, username='你好', password='72d1c9f599b7462ce945eff65bf4a6e9', salt='你好'}]
+2019-05-28 22:28:44,735 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 22:28:44,749 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 22:28:44,750 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 22:28:44,753 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 22:28:44,762 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}, AdminInfo{id=9, username='你好', password='72d1c9f599b7462ce945eff65bf4a6e9', salt='你好'}]
+2019-05-28 22:29:14,546 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 22:29:14,588 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 22:29:14,599 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=c3448a23-4dfc-411a-a078-aabba4e43971
+2019-05-28 22:29:14,599 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 22:29:14,600 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 22:29:14,603 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-28 22:30:13,512 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 22:30:13,519 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-28 22:30:13,520 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-28 22:30:13,520 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 22:30:13,521 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-28 22:30:13,534 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-28 22:30:13,548 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@e66b219
+2019-05-28 22:30:13,600 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-28 22:30:13,612 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-28 22:30:13,612 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-28 22:30:13,615 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-28 22:30:13,627 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}, AdminInfo{id=9, username='你好', password='72d1c9f599b7462ce945eff65bf4a6e9', salt='你好'}]

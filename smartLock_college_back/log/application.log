@@ -1,0 +1,7 @@
+2019-07-12 20:03:24,497 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 4568 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-07-12 20:03:24,516 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-12 20:03:24,516 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-07-12 20:03:31,062 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 7.308 seconds (JVM running for 20.715)
+2019-07-12 20:15:09,584 ERROR (GlobalExceptionHandler.java:30)- no name
+2019-07-12 20:15:13,844 ERROR (GlobalExceptionHandler.java:30)- no name
+2019-07-12 20:15:16,900 ERROR (GlobalExceptionHandler.java:30)- no name

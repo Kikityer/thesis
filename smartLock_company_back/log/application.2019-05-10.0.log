@@ -1,0 +1,872 @@
+2019-05-10 09:25:30,317 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 13680 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 09:25:30,700 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 09:25:30,701 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 09:25:57,754 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 33.076 seconds (JVM running for 43.113)
+2019-05-10 09:26:42,735 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:26:43,471 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 09:26:43,472 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 09:26:43,472 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 09:26:43,479 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 09:26:44,745 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 09:26:44,840 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@175339af
+2019-05-10 09:27:24,624 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:27:24,680 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 09:27:24,681 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 09:27:24,681 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 09:27:24,773 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}]
+2019-05-10 09:27:34,708 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:27:34,716 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 09:27:34,717 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 09:27:34,717 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 09:27:34,723 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}]
+2019-05-10 09:27:47,497 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:27:47,505 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 09:27:47,506 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 09:27:47,507 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 09:27:47,511 INFO (LogOutController.java:34)- sessionIdf7a7f387-e24e-4564-9e5e-3e63bd40026f
+2019-05-10 09:27:47,516 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 09:27:47,517 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 09:27:47,532 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@1e7c79ca
+2019-05-10 09:28:01,681 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:28:01,716 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:28:01,723 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=1945ebc3-a8eb-4dce-bfa9-85f73280cf23
+2019-05-10 09:28:01,723 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 09:28:01,724 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 09:28:01,728 INFO (WebLogAspect.java:56)- RESPONSE : {
+    "codeEnum": "OVERTIME",
+    "code": 0,
+    "data": null,
+    "msg": "未登陆/登陆超时",
+    "success": false
+}
+2019-05-10 09:29:43,875 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 2024 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 09:29:43,880 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 09:29:43,881 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 09:29:52,735 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 9.614 seconds (JVM running for 16.009)
+2019-05-10 09:30:19,059 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:30:19,130 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/register/user
+2019-05-10 09:30:19,131 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 09:30:19,132 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 09:30:19,342 ERROR (GlobalExceptionHandler.java:33)- 此用户名已被使用，请更改！
+2019-05-10 09:30:27,981 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:30:27,988 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/register/user
+2019-05-10 09:30:27,989 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 09:30:27,989 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 09:30:27,993 ERROR (GlobalExceptionHandler.java:33)- 此用户名已被使用，请更改！
+2019-05-10 09:30:57,767 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 11424 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 09:30:57,771 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 09:30:57,772 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 09:31:04,689 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 7.755 seconds (JVM running for 8.889)
+2019-05-10 09:33:39,198 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:33:39,491 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:33:39,520 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-10 09:33:39,521 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 09:33:39,522 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 09:33:39,527 INFO (WebLogAspect.java:56)- RESPONSE : {
+    "codeEnum": "OVERTIME",
+    "code": 0,
+    "data": null,
+    "msg": "未登陆/登陆超时，请登录后访问！",
+    "success": false
+}
+2019-05-10 09:34:24,264 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:34:24,321 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 09:34:24,321 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 09:34:24,322 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 09:34:24,326 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 09:34:24,658 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 09:34:24,705 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@1b9813de
+2019-05-10 09:34:33,035 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:34:33,077 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 09:34:33,077 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 09:34:33,078 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 09:34:33,116 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}]
+2019-05-10 09:34:37,950 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:34:37,959 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 09:34:37,960 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 09:34:37,960 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 09:34:37,965 INFO (LogOutController.java:34)- sessionId1945ebc3-a8eb-4dce-bfa9-85f73280cf23
+2019-05-10 09:34:37,971 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 09:34:37,972 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 09:34:37,979 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@494c7c32
+2019-05-10 09:34:44,176 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:34:44,212 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 09:34:44,219 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=e8858fe3-8034-4821-9e65-e672c7161df0
+2019-05-10 09:34:44,220 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 09:34:44,220 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 09:34:44,221 INFO (WebLogAspect.java:56)- RESPONSE : {
+    "codeEnum": "OVERTIME",
+    "code": 0,
+    "data": null,
+    "msg": "未登陆/登陆超时，请登录后访问！",
+    "success": false
+}
+2019-05-10 10:06:29,640 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 13804 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 10:06:29,751 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 10:06:29,751 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 10:06:41,706 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 14.18 seconds (JVM running for 22.485)
+2019-05-10 10:08:30,809 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:08:31,398 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 10:08:31,399 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 10:08:31,399 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:08:31,404 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 10:08:32,194 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 10:08:32,306 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@20f031de
+2019-05-10 10:09:06,854 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:09:06,863 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 10:09:06,863 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 10:09:06,864 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:09:06,920 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}]
+2019-05-10 10:09:23,313 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:09:23,326 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 10:09:23,327 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 10:09:23,328 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:09:23,331 INFO (LogOutController.java:34)- sessionId90339490-659a-409e-8690-1d58539a90bc
+2019-05-10 10:09:23,339 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 10:09:23,340 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 10:09:23,354 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@24316942
+2019-05-10 10:09:33,165 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:09:33,182 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/register/user
+2019-05-10 10:09:33,183 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 10:09:33,183 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:09:33,196 ERROR (GlobalExceptionHandler.java:33)- 此用户名已被使用，请更改！
+2019-05-10 10:09:42,328 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:09:42,372 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:09:42,384 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=3cb489cd-80a5-4028-91da-48074333342b
+2019-05-10 10:09:42,385 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 10:09:42,385 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:09:42,391 INFO (WebLogAspect.java:56)- RESPONSE : {
+    "codeEnum": "OVERTIME",
+    "code": 0,
+    "data": null,
+    "msg": "未登陆/登陆超时，请登录后访问！",
+    "success": false
+}
+2019-05-10 10:16:54,737 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:16:54,772 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:16:54,779 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=c69f3d38-7891-4cd0-9084-973c7b0e0d14
+2019-05-10 10:16:54,780 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 10:16:54,780 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:16:54,781 INFO (WebLogAspect.java:56)- RESPONSE : {
+    "codeEnum": "OVERTIME",
+    "code": 0,
+    "data": null,
+    "msg": "未登陆/登陆超时，请登录后访问！",
+    "success": false
+}
+2019-05-10 10:20:30,512 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 8796 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 10:20:30,516 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 10:20:30,517 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 10:20:39,123 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 9.62 seconds (JVM running for 13.691)
+2019-05-10 10:20:50,248 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:20:50,343 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 10:20:50,344 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 10:20:50,345 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:20:50,352 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 10:20:50,688 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 10:20:50,745 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@556934ce
+2019-05-10 10:20:55,510 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:20:55,522 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 10:20:55,523 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 10:20:55,523 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:20:55,558 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}]
+2019-05-10 10:20:59,495 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:20:59,504 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 10:20:59,505 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 10:20:59,506 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:20:59,509 INFO (LogOutController.java:34)- sessionId5e2eb6c8-97bc-40a1-b1c8-a9823b2e40d9
+2019-05-10 10:20:59,514 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 10:20:59,515 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 10:20:59,516 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@572e0d9f
+2019-05-10 10:21:08,822 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:21:08,847 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:21:08,854 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=04bcb61a-80d4-4ef5-86b6-25043ed2dfee
+2019-05-10 10:21:08,855 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 10:21:08,856 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:21:08,859 INFO (WebLogAspect.java:56)- RESPONSE : {
+    "codeEnum": "OVERTIME",
+    "code": 0,
+    "data": null,
+    "msg": "未登陆/登陆超时，请登录后访问！",
+    "success": false
+}
+2019-05-10 10:45:23,314 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 8560 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 10:45:23,320 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 10:45:23,321 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 10:45:39,878 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 21.7 seconds (JVM running for 34.035)
+2019-05-10 10:45:59,815 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:45:59,990 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 10:45:59,990 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 10:45:59,991 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:45:59,998 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 10:46:00,931 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 10:46:01,352 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@7371c14d
+2019-05-10 10:47:18,467 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12584 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 10:47:18,473 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 10:47:18,474 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 10:47:25,243 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 8.259 seconds (JVM running for 11.006)
+2019-05-10 10:49:07,831 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:49:07,892 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 10:49:07,893 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 10:49:07,893 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:49:07,898 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 10:49:08,190 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 10:49:08,228 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@6e9b7b27
+2019-05-10 10:51:01,939 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:51:01,972 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:51:01,981 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=5c160215-5870-486a-8a2e-2d86d7e98fe4
+2019-05-10 10:51:01,982 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 10:51:01,982 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:51:01,989 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 10:52:28,652 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:52:28,658 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 10:52:28,659 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 10:52:28,659 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:52:28,659 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 10:52:28,666 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 10:52:28,683 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@48f699ae
+2019-05-10 10:52:35,171 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:52:35,183 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 10:52:35,183 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 10:52:35,184 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:52:35,223 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}]
+2019-05-10 10:52:40,414 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:52:40,424 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 10:52:40,424 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 10:52:40,425 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:52:40,429 INFO (LogOutController.java:34)- sessionId4a594854-e647-4d70-9e7f-ce339347f787
+2019-05-10 10:52:40,434 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 10:52:40,435 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 10:52:40,436 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@7ca1de44
+2019-05-10 10:52:47,202 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:52:47,224 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 10:52:47,232 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=e216ea07-2be1-434c-866e-7a6e70db544d
+2019-05-10 10:52:47,233 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 10:52:47,233 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 10:52:47,234 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 11:17:35,192 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 14492 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 11:17:35,244 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 11:17:35,245 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 11:17:51,645 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 20.488 seconds (JVM running for 31.182)
+2019-05-10 11:19:01,509 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 11:19:01,727 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 11:19:01,727 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 11:19:01,727 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 11:19:01,732 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 11:19:02,364 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 11:19:02,450 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@1568d745
+2019-05-10 11:19:16,087 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 11:19:16,156 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 11:19:16,156 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 11:19:16,157 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 11:19:16,214 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}]
+2019-05-10 11:19:46,672 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 11:19:46,689 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 11:19:46,689 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 11:19:46,690 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 11:19:46,693 INFO (LogOutController.java:34)- sessionId75e84a0d-c41e-459b-9038-22a20e79fbec
+2019-05-10 11:19:46,699 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 11:19:46,699 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 11:19:46,723 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@77896e83
+2019-05-10 11:21:21,769 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 14740 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 11:21:21,782 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 11:21:21,783 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 11:21:29,212 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 11.453 seconds (JVM running for 22.473)
+2019-05-10 11:21:41,274 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 11:21:41,348 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 11:21:41,349 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 11:21:41,349 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 11:21:41,354 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 11:21:41,617 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 11:21:41,886 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@68f2a85a
+2019-05-10 11:21:59,979 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 11:21:59,994 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 11:21:59,994 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 11:21:59,994 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 11:22:00,028 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}]
+2019-05-10 11:22:07,362 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 11:22:07,374 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 11:22:07,374 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 11:22:07,375 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 11:22:07,379 INFO (LogOutController.java:34)- sessionId56529a37-4212-4920-a87b-aef593402b7b
+2019-05-10 11:22:07,385 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 11:22:07,386 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 11:22:07,387 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@774a3c91
+2019-05-10 11:22:15,249 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 11:22:15,281 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 11:22:15,291 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=814ed69f-fab6-4bf3-89eb-57339efd12a8
+2019-05-10 11:22:15,291 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 11:22:15,292 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 11:22:15,300 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 12:22:55,775 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1888 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 12:22:55,792 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 12:22:55,792 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 12:23:02,505 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 7.379 seconds (JVM running for 11.04)
+2019-05-10 12:25:23,308 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:25:23,525 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 12:25:23,526 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 12:25:23,526 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:25:23,530 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 12:25:24,139 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 12:25:24,188 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@71e9e169
+2019-05-10 12:25:32,637 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:25:33,003 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 12:25:33,004 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:25:33,004 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:25:33,045 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}]
+2019-05-10 12:25:36,787 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:25:36,796 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 12:25:36,797 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:25:36,806 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:25:36,811 INFO (LogOutController.java:34)- sessionId047d4dc2-4ea3-4413-8a8c-0eda7cd4cff4
+2019-05-10 12:25:36,817 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 12:25:36,817 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 12:25:36,830 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@39323915
+2019-05-10 12:25:44,814 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:25:44,861 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:25:44,871 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=3c7dc294-2264-41a3-8e48-9be400e4c5db
+2019-05-10 12:25:44,871 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:25:44,871 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:25:44,978 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-10 12:27:08,887 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 14060 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 12:27:08,897 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 12:27:08,897 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 12:27:16,150 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 8.089 seconds (JVM running for 10.448)
+2019-05-10 12:28:22,703 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 7096 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 12:28:22,896 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 12:28:22,896 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 12:28:29,796 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 11.002 seconds (JVM running for 13.611)
+2019-05-10 12:28:50,619 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:28:50,722 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:28:50,765 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=bbe50be6-c163-4db0-9d30-0e9597e7093b
+2019-05-10 12:28:50,766 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:28:50,768 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:28:50,779 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 12:30:13,360 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:30:13,401 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:30:13,409 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=b1e07053-dee3-48fe-bc1c-8760a2bda5ba
+2019-05-10 12:30:13,410 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:30:13,411 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:30:13,412 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 12:31:10,109 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:31:10,152 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:31:10,160 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-10 12:31:10,161 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:31:10,162 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:31:10,163 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 12:31:22,766 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:31:22,780 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:31:22,787 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-10 12:31:22,788 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:31:22,788 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:31:22,789 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 12:31:33,076 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:31:33,095 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:31:33,103 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-10 12:31:33,103 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:31:33,104 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:31:33,104 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 12:35:46,585 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:35:46,641 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/register/user
+2019-05-10 12:35:46,641 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 12:35:46,642 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:35:47,041 ERROR (GlobalExceptionHandler.java:33)- 此用户名已被使用，请更改！
+2019-05-10 12:37:01,866 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:37:01,872 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/register/user
+2019-05-10 12:37:01,873 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 12:37:01,874 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:37:01,883 ERROR (GlobalExceptionHandler.java:33)- 此用户名已被使用，请更改！
+2019-05-10 12:37:06,700 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:37:06,709 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/register/user
+2019-05-10 12:37:06,710 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 12:37:06,711 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:37:07,114 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@6fbb922b
+2019-05-10 12:37:18,970 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:37:18,975 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/register/user
+2019-05-10 12:37:18,976 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 12:37:18,976 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:37:19,013 ERROR (GlobalExceptionHandler.java:33)- 此用户名已被使用，请更改！
+2019-05-10 12:39:12,015 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:39:12,039 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:39:12,047 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=80b26a2e-539c-4434-a7f1-8c1ade1aa494
+2019-05-10 12:39:12,048 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:39:12,048 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:39:12,049 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 12:47:22,297 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 6168 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 12:47:22,303 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 12:47:22,304 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 12:47:29,501 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 9.019 seconds (JVM running for 11.181)
+2019-05-10 12:52:40,953 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:52:41,010 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 12:52:41,011 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 12:52:41,011 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:52:41,015 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 12:52:41,250 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 12:52:41,287 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@34630435
+2019-05-10 12:52:46,274 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:52:46,288 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 12:52:46,288 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:52:46,289 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:52:46,328 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-10 12:52:55,171 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:52:55,182 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 12:52:55,182 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:52:55,183 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:52:55,187 INFO (LogOutController.java:34)- sessionIdbb4bdb6d-4cfe-4509-87e2-bb442da4302f
+2019-05-10 12:52:55,192 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 12:52:55,193 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 12:52:55,194 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@7036b45d
+2019-05-10 12:53:02,916 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:53:02,945 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:53:02,952 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=e94b355b-052d-4a44-aee9-02fe3199d347
+2019-05-10 12:53:02,953 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:53:02,953 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:53:02,961 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 12:53:55,448 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:53:55,484 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:53:55,492 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-10 12:53:55,492 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:53:55,492 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:53:55,493 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 12:54:05,665 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:54:05,685 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:54:05,696 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-10 12:54:05,696 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:54:05,697 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:54:05,698 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 12:54:10,926 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:54:10,940 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:54:10,947 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-10 12:54:10,948 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:54:10,948 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:54:10,949 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 12:55:15,957 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:55:15,983 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:55:15,990 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=340d5fb1-987c-4d04-8d78-0874e3ba6e48
+2019-05-10 12:55:15,991 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:55:15,991 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:55:15,992 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 12:56:22,681 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:56:22,767 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 12:56:22,774 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=767263c1-9199-4d9c-b732-b7de54350f40
+2019-05-10 12:56:22,775 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 12:56:22,776 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 12:56:22,776 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 13:38:01,862 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:38:01,907 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 13:38:01,913 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 13:38:01,914 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:38:01,915 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin5
+2019-05-10 13:38:01,991 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@3b16649c
+2019-05-10 13:38:58,840 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:38:58,845 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 13:38:58,846 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 13:38:58,847 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:38:58,847 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 13:38:58,877 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 13:38:58,905 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@2a8e86b2
+2019-05-10 13:39:20,328 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:39:20,373 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:39:20,382 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=58ac3d5b-1be4-418e-b304-44761343e80d
+2019-05-10 13:39:20,383 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:39:20,383 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:39:20,386 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 13:39:48,277 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:39:48,329 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:39:48,344 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-10 13:39:48,345 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:39:48,345 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:39:48,346 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 13:39:51,320 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:39:51,359 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:39:51,366 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-10 13:39:51,366 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:39:51,367 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:39:51,367 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 13:40:00,610 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:40:00,637 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:40:00,656 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-10 13:40:00,656 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:40:00,657 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:40:00,658 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 13:40:04,045 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:40:04,085 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:40:04,097 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-10 13:40:04,097 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:40:04,097 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:40:04,098 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 13:40:10,825 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:40:10,857 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:40:10,868 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-10 13:40:10,869 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:40:10,869 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:40:10,870 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 13:40:23,176 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:40:23,262 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/register/user
+2019-05-10 13:40:23,263 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 13:40:23,263 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:40:23,294 ERROR (GlobalExceptionHandler.java:33)- 此用户名已被使用，请更改！
+2019-05-10 13:40:36,518 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:40:36,530 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 13:40:36,531 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 13:40:36,532 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:40:36,532 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 13:40:36,536 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 13:40:36,546 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@5ccdb8b8
+2019-05-10 13:40:45,939 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:40:45,962 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 13:40:45,963 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:40:45,964 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:40:46,047 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-10 13:40:49,919 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:40:49,928 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 13:40:49,928 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:40:49,929 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:40:49,930 INFO (LogOutController.java:34)- sessionId58ac3d5b-1be4-418e-b304-44761343e80d
+2019-05-10 13:40:49,964 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 13:40:49,965 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 13:40:49,965 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@2bcdcd6c
+2019-05-10 13:42:46,249 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 8964 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 13:42:46,253 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 13:42:46,253 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 13:42:54,182 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 10.736 seconds (JVM running for 16.212)
+2019-05-10 13:43:14,505 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:43:14,579 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 13:43:14,580 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 13:43:14,580 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:43:14,585 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 13:43:14,878 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 13:43:17,984 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@6862a21c
+2019-05-10 13:43:26,530 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:43:26,540 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 13:43:26,541 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:43:26,542 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:43:26,580 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-10 13:43:40,117 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:43:40,126 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 13:43:40,127 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:43:40,128 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:43:40,132 INFO (LogOutController.java:34)- sessionId740a5de1-dcdd-4954-9d8a-b9d54c64c002
+2019-05-10 13:43:40,137 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 13:43:40,138 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 13:43:40,139 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@2a8b452e
+2019-05-10 13:43:48,107 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:43:48,131 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 13:43:48,132 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:43:48,133 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:43:48,141 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-10 13:44:01,469 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:44:01,478 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 13:44:01,479 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:44:01,479 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:44:01,486 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-10 13:44:21,551 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:44:21,560 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 13:44:21,561 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:44:21,561 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:44:21,562 INFO (LogOutController.java:34)- sessionId143f5fc8-210a-44ec-85dd-54a6babc540f
+2019-05-10 13:44:21,565 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 13:44:21,566 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 13:44:21,567 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@213b1f71
+2019-05-10 13:44:28,871 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:44:28,892 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 13:44:28,893 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:44:28,894 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:44:28,900 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-10 13:44:37,082 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:44:37,090 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 13:44:37,090 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:44:37,091 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:44:37,091 INFO (LogOutController.java:34)- sessionIddd6ba1fd-6e58-4f85-8541-8280f1a69b55
+2019-05-10 13:44:37,094 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 13:44:37,095 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 13:44:37,095 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@16d60793
+2019-05-10 13:44:49,015 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:44:49,036 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 13:44:49,036 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 13:44:49,037 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:44:49,037 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 13:44:49,040 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 13:44:49,051 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@3c5db457
+2019-05-10 13:44:56,358 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:44:56,369 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 13:44:56,370 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:44:56,370 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:44:56,376 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-10 13:45:13,890 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:45:13,898 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 13:45:13,898 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:45:13,899 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:45:13,899 INFO (LogOutController.java:34)- sessionIdc7e9d971-c023-4c19-9440-841f7b933c92
+2019-05-10 13:45:13,903 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 13:45:13,903 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 13:45:13,904 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@757dd472
+2019-05-10 13:45:16,522 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:45:16,544 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:45:16,552 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=bb920231-1543-4697-9d3f-ed1d265adf0b
+2019-05-10 13:45:16,553 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:45:16,553 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:45:16,560 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 13:45:20,854 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:45:20,870 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:45:20,877 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-10 13:45:20,878 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:45:20,878 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:45:20,879 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 13:45:36,499 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:45:36,527 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:45:36,535 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-05-10 13:45:36,535 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 13:45:36,535 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:45:36,536 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 13:45:50,807 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 13:45:50,825 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/register/user
+2019-05-10 13:45:50,825 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 13:45:50,826 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 13:45:50,839 ERROR (GlobalExceptionHandler.java:33)- 此用户名已被使用，请更改！
+2019-05-10 14:32:03,979 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 15280 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 14:32:03,999 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 14:32:04,000 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 14:32:28,995 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 28.38 seconds (JVM running for 44.709)
+2019-05-10 14:32:51,795 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:32:51,967 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-10 14:32:51,967 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 14:32:51,967 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:32:52,062 INFO (KaptchaController.java:56)- 2683
+2019-05-10 14:33:08,616 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-10 14:33:21,093 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:33:21,102 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-10 14:33:21,103 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 14:33:21,103 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:33:21,111 INFO (KaptchaController.java:56)- 9494
+2019-05-10 14:33:21,145 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-10 14:33:30,211 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:33:30,219 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-10 14:33:30,220 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 14:33:30,220 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:33:30,229 INFO (KaptchaController.java:56)- 8383
+2019-05-10 14:33:30,271 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-10 14:37:40,655 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:37:40,667 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-10 14:37:40,668 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 14:37:40,669 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:37:40,677 INFO (KaptchaController.java:56)- 8493
+2019-05-10 14:37:40,705 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-10 14:38:11,685 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:38:11,691 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-10 14:38:11,692 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 14:38:11,692 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:38:11,700 INFO (KaptchaController.java:56)- 6723
+2019-05-10 14:38:11,731 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-10 14:39:15,394 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:39:15,466 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 14:39:15,466 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 14:39:15,467 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:39:15,471 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 14:39:15,947 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 14:39:15,995 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@c33cf6c
+2019-05-10 14:39:31,128 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:39:31,156 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 14:39:31,156 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 14:39:31,157 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:39:31,197 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-10 14:39:34,948 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:39:34,962 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 14:39:34,963 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 14:39:34,963 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:39:34,967 INFO (LogOutController.java:34)- sessionIdbb55412d-599a-4629-b192-c50245759851
+2019-05-10 14:39:34,972 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 14:39:34,973 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 14:39:34,989 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@65a5d0cf
+2019-05-10 14:39:42,071 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:39:42,075 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-10 14:39:42,076 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 14:39:42,077 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:39:42,090 INFO (KaptchaController.java:56)- 6727
+2019-05-10 14:39:42,117 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-10 14:39:49,952 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:39:49,966 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 14:39:49,967 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 14:39:49,967 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:39:49,968 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 14:39:49,972 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 14:39:49,983 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@47954a2c
+2019-05-10 14:47:05,403 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1420 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 14:47:05,408 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 14:47:05,409 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 14:47:14,309 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 10.187 seconds (JVM running for 14.514)
+2019-05-10 14:47:33,684 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:47:33,758 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 14:47:33,758 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 14:47:33,759 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:47:33,763 INFO (LogOutController.java:34)- sessionId1b2345ef-b398-4328-8ce6-60e29a8c5464
+2019-05-10 14:47:33,769 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 14:47:33,770 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 14:47:33,770 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@25d02891
+2019-05-10 14:47:46,730 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:47:46,741 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-10 14:47:46,741 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 14:47:46,742 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:47:46,803 INFO (KaptchaController.java:56)- 6972
+2019-05-10 14:47:55,918 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-10 14:48:05,095 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:48:05,132 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 14:48:05,133 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 14:48:05,133 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:48:05,136 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@1190f09c
+2019-05-10 14:48:30,312 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:48:30,323 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 14:48:30,324 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 14:48:30,325 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:48:30,325 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@603697e4
+2019-05-10 14:49:16,773 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:49:17,132 ERROR (GlobalExceptionHandler.java:82)- 其他异常：Required String parameter 'captchaCode' is not present
+2019-05-10 14:49:32,738 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:49:33,048 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 14:49:33,049 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 14:49:33,050 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:49:33,051 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 14:49:33,480 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 14:49:33,513 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@578d99c4
+2019-05-10 14:49:43,763 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:49:43,773 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-10 14:49:43,774 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 14:49:43,775 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:49:43,786 INFO (KaptchaController.java:56)- 5852
+2019-05-10 14:49:43,816 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-10 14:49:50,432 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:49:50,441 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 14:49:50,441 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 14:49:50,442 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:49:50,442 INFO (LogOutController.java:34)- sessionId3940a270-a96f-4370-b87d-5181266997b3
+2019-05-10 14:49:50,447 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 14:49:50,448 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 14:49:50,449 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@2ec0fbae
+2019-05-10 14:49:56,752 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:49:56,794 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:49:56,806 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=ffd988c7-0fe3-4808-921c-594cbc399a59
+2019-05-10 14:49:56,806 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 14:49:56,806 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:49:56,811 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 14:50:01,623 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:50:01,652 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/register/user
+2019-05-10 14:50:01,653 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 14:50:01,653 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:50:01,660 ERROR (GlobalExceptionHandler.java:33)- 此用户名已被使用，请更改！
+2019-05-10 14:50:07,517 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:50:07,527 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 14:50:07,528 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 14:50:07,528 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 14:50:07,529 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@127d3bba
+2019-05-10 14:54:04,202 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 13556 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 14:54:04,218 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 14:54:04,219 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 14:54:13,838 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 11.019 seconds (JVM running for 20.165)
+2019-05-10 14:54:57,858 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:54:57,932 ERROR (GlobalExceptionHandler.java:82)- 其他异常：Required String parameter 'captchaCode' is not present
+2019-05-10 14:55:06,426 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 14:55:06,436 ERROR (GlobalExceptionHandler.java:82)- 其他异常：Required String parameter 'captchaCode' is not present
+2019-05-10 15:04:27,959 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 2416 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 15:04:27,982 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 15:04:27,982 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 15:04:37,146 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 10.212 seconds (JVM running for 12.549)
+2019-05-10 15:04:57,968 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 15:04:58,183 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 15:04:58,184 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 15:04:58,184 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 15:04:58,190 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@70fe6ec
+2019-05-10 15:06:56,645 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 10896 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 15:06:56,662 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 15:06:56,663 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 15:07:04,790 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 9.271 seconds (JVM running for 11.995)
+2019-05-10 15:07:20,131 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 15:07:20,216 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 15:07:20,217 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 15:07:20,217 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 15:07:20,223 ERROR (GlobalExceptionHandler.java:45)- 空指针异常：null
+2019-05-10 15:07:30,527 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 15:07:30,544 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 15:07:30,545 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 15:07:30,546 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 15:07:30,547 ERROR (GlobalExceptionHandler.java:45)- 空指针异常：null
+2019-05-10 15:12:09,766 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 15012 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 15:12:09,784 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 15:12:09,784 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 15:12:16,768 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 8.539 seconds (JVM running for 10.46)
+2019-05-10 15:12:35,931 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 15:12:36,019 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 15:12:36,019 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 15:12:36,020 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 15:12:36,024 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 15:12:36,321 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 15:12:36,353 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@5211eae3
+2019-05-10 15:13:38,869 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 15:13:38,887 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-10 15:13:38,887 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 15:13:38,888 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 15:13:38,930 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-10 15:13:41,537 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 15:13:41,548 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-10 15:13:41,549 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 15:13:41,550 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 15:13:41,555 INFO (LogOutController.java:34)- sessionIdffd988c7-0fe3-4808-921c-594cbc399a59
+2019-05-10 15:13:41,563 INFO (LogOutController.java:39)- jedis_key1
+2019-05-10 15:13:41,564 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-10 15:13:41,565 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@4230c3ef
+2019-05-10 15:13:48,999 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 15:13:49,028 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 15:13:49,039 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=62c32f57-a9be-4b04-ac6d-a396013596a6
+2019-05-10 15:13:49,039 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 15:13:49,040 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 15:13:49,045 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-10 15:13:52,502 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 15:13:52,514 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-10 15:13:52,515 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 15:13:52,516 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 15:13:52,536 INFO (KaptchaController.java:56)- 9662
+2019-05-10 15:13:59,646 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 15:13:59,654 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 15:13:59,654 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 15:13:59,655 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 15:13:59,655 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@40dfec19
+2019-05-10 15:14:02,692 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-10 15:14:10,633 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 15:14:10,645 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 15:14:10,646 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 15:14:10,647 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 15:14:10,647 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@5af0b89b
+2019-05-10 15:14:15,813 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 15:14:15,824 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-10 15:14:15,825 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-10 15:14:15,825 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 15:14:15,826 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-10 15:14:15,842 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-10 15:14:15,852 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@3924b18
+2019-05-10 15:44:38,111 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 15:44:39,556 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-10 15:44:39,617 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 15:44:39,622 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 15:44:39,817 INFO (KaptchaController.java:56)- 6449
+2019-05-10 15:44:41,017 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-10 15:44:46,485 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-10 15:44:46,597 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-10 15:44:46,599 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-10 15:44:46,600 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-10 15:44:46,608 INFO (KaptchaController.java:56)- 3734
+2019-05-10 15:44:46,807 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-10 16:58:27,482 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12796 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 16:58:27,487 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 16:58:27,488 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 16:58:37,312 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 14.473 seconds (JVM running for 32.315)
+2019-05-10 16:59:22,097 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1116 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 16:59:22,102 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 16:59:22,102 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 16:59:31,633 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 10.126 seconds (JVM running for 12.719)
+2019-05-10 17:03:25,677 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 4384 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 17:03:25,681 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 17:03:25,682 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 17:03:32,956 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 7.971 seconds (JVM running for 10.895)
+2019-05-10 17:04:24,355 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 6560 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-10 17:04:24,360 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-10 17:04:24,360 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-10 17:04:34,459 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 11.007 seconds (JVM running for 13.511)

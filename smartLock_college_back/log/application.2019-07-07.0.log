@@ -1,0 +1,4 @@
+2019-07-07 13:45:39,643 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12076 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-07-07 13:45:39,659 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-07 13:45:39,659 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-07-07 13:45:45,909 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 6.844 seconds (JVM running for 19.665)

@@ -1,0 +1,881 @@
+2019-05-07 08:58:37,316 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 08:58:37,323 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 08:58:37,324 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 08:58:44,100 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 7.474 seconds (JVM running for 10.145)
+2019-05-07 08:59:28,386 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/checkIdentify
+2019-05-07 08:59:28,387 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 08:59:28,387 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 08:59:28,754 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@c1d8ce0
+2019-05-07 09:00:40,659 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/checkIdentify
+2019-05-07 09:00:40,659 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 09:00:40,659 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 09:00:40,736 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@27b0c1e2
+2019-05-07 11:07:37,101 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:07:37,108 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:07:37,109 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:07:44,441 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 7.769 seconds (JVM running for 7750.486)
+2019-05-07 11:08:15,600 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:08:15,601 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:08:15,601 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:08:17,602 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.062 seconds (JVM running for 7783.648)
+2019-05-07 11:08:21,596 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:08:21,596 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:08:21,596 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:08:29,589 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:08:29,589 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:08:29,589 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:08:38,068 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:08:38,069 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:08:38,069 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:08:41,419 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:08:41,419 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:08:41,419 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:08:44,766 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:08:44,766 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:08:44,766 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:08:50,018 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:08:50,018 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:08:50,018 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:08:56,336 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:08:56,337 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:08:56,337 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:09:02,057 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:09:02,057 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:09:02,057 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:09:05,629 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:09:05,636 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:09:05,636 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:09:17,932 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:09:17,932 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:09:17,933 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:09:21,072 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:09:21,073 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:09:21,073 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:09:34,383 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:09:34,383 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:09:34,383 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:09:44,924 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:09:44,924 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:09:44,930 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:09:49,628 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:09:49,628 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:09:49,628 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:09:55,873 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:09:55,874 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:09:55,875 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:10:20,012 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:10:20,013 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:10:20,013 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:10:27,230 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:10:27,230 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:10:27,230 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:10:45,188 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:10:45,188 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:10:45,188 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:10:47,953 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:10:47,953 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:10:47,953 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:10:51,252 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:10:51,253 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:10:51,253 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:11:23,341 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:11:23,341 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:11:23,342 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:11:32,022 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:11:32,023 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:11:32,023 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:12:15,920 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12340 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:12:15,920 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:12:15,920 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:14:21,251 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 6424 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:14:21,255 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:14:21,256 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:22:01,051 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 10928 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:22:01,079 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:22:01,079 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:29:44,624 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 3328 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:29:44,662 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:29:44,663 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:31:15,045 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 9008 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:31:15,049 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:31:15,050 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 11:34:15,723 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12400 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 11:34:15,736 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:34:15,736 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:24:35,714 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 8228 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:24:35,742 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:24:35,742 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:25:15,044 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:25:15,047 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:25:15,047 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:25:21,072 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 6.447 seconds (JVM running for 8.38)
+2019-05-07 12:30:00,489 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:30:00,490 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:30:00,490 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:30:05,730 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:30:05,731 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:30:05,737 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:30:09,211 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 3.512 seconds (JVM running for 296.52)
+2019-05-07 12:30:12,350 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:30:12,351 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:30:12,351 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:30:14,725 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.448 seconds (JVM running for 302.035)
+2019-05-07 12:30:17,783 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:30:17,784 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:30:17,784 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:30:20,434 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.696 seconds (JVM running for 307.744)
+2019-05-07 12:30:24,413 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:30:24,414 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:30:24,414 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:30:25,606 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.232 seconds (JVM running for 312.915)
+2019-05-07 12:30:28,288 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:30:28,288 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:30:28,288 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:30:31,065 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.801 seconds (JVM running for 318.373)
+2019-05-07 12:30:32,912 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:30:32,913 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:30:32,913 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:30:35,762 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.903 seconds (JVM running for 323.071)
+2019-05-07 12:30:39,008 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:30:39,011 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:30:39,011 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:30:51,231 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:30:51,232 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:30:51,233 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:30:53,697 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.497 seconds (JVM running for 341.006)
+2019-05-07 12:31:10,143 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:31:10,143 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:31:10,144 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:31:12,044 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.967 seconds (JVM running for 359.353)
+2019-05-07 12:31:27,633 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:31:27,633 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:31:27,633 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:31:29,829 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.257 seconds (JVM running for 377.138)
+2019-05-07 12:31:32,831 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:31:32,832 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:31:32,832 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:31:34,697 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.901 seconds (JVM running for 382.006)
+2019-05-07 12:31:37,491 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:31:37,492 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:31:37,492 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:31:39,719 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.264 seconds (JVM running for 387.028)
+2019-05-07 12:31:44,017 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:31:44,018 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:31:44,018 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:31:46,145 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.16 seconds (JVM running for 393.454)
+2019-05-07 12:31:55,230 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:31:55,230 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:31:55,230 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:32:00,096 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:32:00,096 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:32:00,096 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:32:02,442 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.381 seconds (JVM running for 409.751)
+2019-05-07 12:32:22,276 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:32:22,277 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:32:22,277 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:32:23,601 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.347 seconds (JVM running for 430.91)
+2019-05-07 12:32:35,840 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:32:35,841 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:32:35,841 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:32:37,741 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.964 seconds (JVM running for 445.05)
+2019-05-07 12:32:50,207 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:32:50,208 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:32:50,208 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:32:52,482 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.311 seconds (JVM running for 459.791)
+2019-05-07 12:33:29,006 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:33:29,007 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:33:29,007 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:33:30,828 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.882 seconds (JVM running for 498.138)
+2019-05-07 12:34:59,255 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:34:59,255 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:34:59,256 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:35:00,535 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.336 seconds (JVM running for 587.843)
+2019-05-07 12:35:03,170 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:35:03,171 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:35:03,171 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:35:05,111 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.986 seconds (JVM running for 592.42)
+2019-05-07 12:35:32,404 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:35:32,404 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:35:32,404 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:35:34,444 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.099 seconds (JVM running for 621.753)
+2019-05-07 12:35:38,198 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:35:38,199 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:35:38,199 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:35:40,429 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.292 seconds (JVM running for 627.737)
+2019-05-07 12:37:22,549 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:37:22,550 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:37:22,550 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:37:24,396 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.959 seconds (JVM running for 731.705)
+2019-05-07 12:37:33,318 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:37:33,318 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:37:33,318 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:37:35,830 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.553 seconds (JVM running for 743.139)
+2019-05-07 12:37:42,757 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:37:42,758 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:37:42,758 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:37:44,885 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.165 seconds (JVM running for 752.194)
+2019-05-07 12:37:58,227 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:37:58,227 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:37:58,228 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:38:00,857 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.679 seconds (JVM running for 768.166)
+2019-05-07 12:38:03,772 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:38:03,772 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:38:03,772 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:38:05,543 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.817 seconds (JVM running for 772.851)
+2019-05-07 12:38:07,515 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:38:07,516 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:38:07,516 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:38:09,822 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.347 seconds (JVM running for 777.13)
+2019-05-07 12:38:12,580 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:38:12,580 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:38:12,580 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:38:14,531 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.982 seconds (JVM running for 781.839)
+2019-05-07 12:38:27,535 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:38:27,536 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:38:27,537 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:38:29,884 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.411 seconds (JVM running for 797.192)
+2019-05-07 12:38:31,867 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:38:31,867 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:38:31,868 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:38:34,185 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.349 seconds (JVM running for 801.494)
+2019-05-07 12:38:41,596 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:38:41,597 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:38:41,597 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:38:43,697 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.139 seconds (JVM running for 811.006)
+2019-05-07 12:38:47,015 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:38:47,015 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:38:47,016 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:38:49,261 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.287 seconds (JVM running for 816.57)
+2019-05-07 12:38:52,124 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:38:52,124 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:38:52,124 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:38:53,355 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.274 seconds (JVM running for 820.664)
+2019-05-07 12:39:18,461 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:39:18,461 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:39:18,461 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:39:20,419 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.992 seconds (JVM running for 847.728)
+2019-05-07 12:39:31,340 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:39:31,340 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:39:31,340 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:39:36,041 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:39:36,042 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:39:36,042 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:39:37,968 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.973 seconds (JVM running for 865.276)
+2019-05-07 12:40:03,428 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:40:03,428 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:40:03,428 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:40:05,704 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.349 seconds (JVM running for 893.013)
+2019-05-07 12:40:12,173 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:40:12,173 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:40:12,173 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:40:14,581 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.478 seconds (JVM running for 901.889)
+2019-05-07 12:40:23,856 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:40:23,857 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:40:23,857 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:40:25,803 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.016 seconds (JVM running for 913.112)
+2019-05-07 12:40:35,886 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:40:35,887 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:40:35,887 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:40:38,085 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.239 seconds (JVM running for 925.394)
+2019-05-07 12:40:42,582 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:40:42,583 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:40:42,583 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:40:44,559 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.072 seconds (JVM running for 931.869)
+2019-05-07 12:41:02,698 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:41:02,698 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:41:02,698 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:41:07,004 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 4.338 seconds (JVM running for 954.314)
+2019-05-07 12:41:26,007 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:41:26,008 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:41:26,008 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:41:28,692 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.748 seconds (JVM running for 976.001)
+2019-05-07 12:41:40,775 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:41:40,775 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:41:40,775 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:41:44,408 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 3.668 seconds (JVM running for 991.717)
+2019-05-07 12:41:47,408 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:41:47,409 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:41:47,409 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:41:51,082 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 3.702 seconds (JVM running for 998.391)
+2019-05-07 12:41:55,546 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:41:55,546 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:41:55,546 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:41:58,396 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.891 seconds (JVM running for 1005.705)
+2019-05-07 12:42:17,338 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:42:17,339 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:42:17,339 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:42:19,834 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.542 seconds (JVM running for 1027.143)
+2019-05-07 12:42:24,292 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:42:24,292 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:42:24,292 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:42:26,905 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.658 seconds (JVM running for 1034.213)
+2019-05-07 12:42:37,120 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:42:37,121 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:42:37,121 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:42:39,885 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.812 seconds (JVM running for 1047.194)
+2019-05-07 12:44:45,012 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:44:45,012 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:44:45,012 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:44:47,137 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.159 seconds (JVM running for 1174.446)
+2019-05-07 12:44:54,974 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:44:54,975 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:44:54,975 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:44:57,516 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.575 seconds (JVM running for 1184.825)
+2019-05-07 12:45:19,986 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:45:19,987 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:45:19,987 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:45:22,041 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.121 seconds (JVM running for 1209.35)
+2019-05-07 12:45:53,125 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:45:53,126 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:45:53,126 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:45:55,157 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.052 seconds (JVM running for 1242.466)
+2019-05-07 12:46:06,871 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:46:06,872 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:46:06,872 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:46:08,694 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 1.875 seconds (JVM running for 1256.003)
+2019-05-07 12:46:17,039 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:46:17,040 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:46:17,040 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:46:19,582 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.599 seconds (JVM running for 1266.891)
+2019-05-07 12:46:23,835 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:46:23,836 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:46:23,836 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:46:26,315 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.528 seconds (JVM running for 1273.624)
+2019-05-07 12:46:33,257 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:46:33,257 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:46:33,257 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:46:35,835 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.61 seconds (JVM running for 1283.143)
+2019-05-07 12:46:38,749 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:46:38,749 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:46:38,749 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:46:40,964 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.253 seconds (JVM running for 1288.273)
+2019-05-07 12:46:44,901 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:46:44,902 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:46:44,902 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:46:47,874 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 3.005 seconds (JVM running for 1295.183)
+2019-05-07 12:47:01,684 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:47:01,684 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:47:01,684 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:47:05,021 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 3.362 seconds (JVM running for 1312.33)
+2019-05-07 12:47:08,191 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:47:08,191 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:47:08,191 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:47:11,135 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.974 seconds (JVM running for 1318.444)
+2019-05-07 12:47:31,113 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:47:31,114 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:47:31,114 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:47:33,544 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.461 seconds (JVM running for 1340.851)
+2019-05-07 12:51:12,755 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:51:12,756 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:51:12,756 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:51:15,642 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.93 seconds (JVM running for 1562.95)
+2019-05-07 12:51:41,976 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:51:41,976 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:51:41,977 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:51:44,960 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 3.064 seconds (JVM running for 1592.27)
+2019-05-07 12:51:50,423 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1324 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 12:51:50,423 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:51:50,423 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 12:51:53,344 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.989 seconds (JVM running for 1600.653)
+2019-05-07 13:47:50,141 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 8184 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 13:47:50,180 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 13:47:50,181 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 13:54:39,272 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 15176 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 13:54:39,306 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 13:54:39,306 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 13:54:48,133 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 9.773 seconds (JVM running for 23.53)
+2019-05-07 16:26:57,546 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:26:58,091 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:26:58,110 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:26:58,188 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:26:58,214 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:26:58,242 INFO (MyShiroRealmService.java:42)- token带来的数据：  null
+2019-05-07 16:27:14,409 INFO (MyShiroRealmService.java:45)- user：null
+2019-05-07 16:27:14,557 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:29:03,249 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:29:03,250 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:29:03,250 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:29:03,251 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:29:03,251 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:29:03,270 INFO (MyShiroRealmService.java:42)- token带来的数据：  null
+2019-05-07 16:29:03,301 INFO (MyShiroRealmService.java:45)- user：null
+2019-05-07 16:29:03,301 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:29:47,144 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:29:47,144 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:29:47,144 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:29:47,145 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:29:47,160 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:29:47,160 INFO (MyShiroRealmService.java:42)- token带来的数据：  null
+2019-05-07 16:29:47,162 INFO (MyShiroRealmService.java:45)- user：null
+2019-05-07 16:29:47,163 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:29:51,239 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:29:51,240 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:29:51,241 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:29:51,241 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:29:51,259 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:29:51,259 INFO (MyShiroRealmService.java:42)- token带来的数据：  null
+2019-05-07 16:29:51,292 INFO (MyShiroRealmService.java:45)- user：null
+2019-05-07 16:29:51,292 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:31:52,692 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 15176 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 16:31:52,692 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 16:31:52,692 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 16:32:11,975 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 19.758 seconds (JVM running for 9467.371)
+2019-05-07 16:32:24,504 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 15176 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 16:32:24,504 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 16:32:24,504 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 16:32:28,961 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 4.638 seconds (JVM running for 9484.357)
+2019-05-07 16:32:32,023 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:32:32,024 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:32:32,025 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:32:32,026 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:32:32,026 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:32:32,026 INFO (MyShiroRealmService.java:42)- token带来的数据：  null
+2019-05-07 16:32:32,168 INFO (MyShiroRealmService.java:45)- user：null
+2019-05-07 16:32:32,169 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:32:32,930 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 15176 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 16:32:32,931 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 16:32:32,931 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 16:32:34,957 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.198 seconds (JVM running for 9490.354)
+2019-05-07 16:32:37,802 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:32:37,805 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:32:37,806 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:32:37,810 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:32:37,811 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:32:37,811 INFO (MyShiroRealmService.java:42)- token带来的数据：  null
+2019-05-07 16:32:37,980 INFO (MyShiroRealmService.java:45)- user：null
+2019-05-07 16:32:37,981 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:33:23,637 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:33:23,638 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:33:23,638 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:33:23,639 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:33:23,639 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:33:23,640 INFO (MyShiroRealmService.java:42)- token带来的数据：  null
+2019-05-07 16:33:23,645 INFO (MyShiroRealmService.java:45)- user：null
+2019-05-07 16:33:23,646 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:33:27,188 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:33:27,190 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:33:27,190 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:33:27,191 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:33:27,192 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:33:27,192 INFO (MyShiroRealmService.java:42)- token带来的数据：  null
+2019-05-07 16:33:27,196 INFO (MyShiroRealmService.java:45)- user：null
+2019-05-07 16:33:27,197 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:41:30,960 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:41:30,960 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:41:30,961 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:41:30,961 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:41:30,961 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:41:30,961 INFO (MyShiroRealmService.java:42)- token带来的数据：  null
+2019-05-07 16:41:30,964 INFO (MyShiroRealmService.java:45)- user：null
+2019-05-07 16:41:30,965 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:41:36,491 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:41:36,491 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:41:36,492 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:41:36,492 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:41:36,492 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:41:36,493 INFO (MyShiroRealmService.java:42)- token带来的数据：  null
+2019-05-07 16:41:36,496 INFO (MyShiroRealmService.java:45)- user：null
+2019-05-07 16:41:36,496 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:46:43,685 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 15176 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 16:46:43,686 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 16:46:43,686 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 16:46:48,191 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 4.747 seconds (JVM running for 10343.587)
+2019-05-07 16:46:55,540 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 15176 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 16:46:55,541 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 16:46:55,541 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 16:46:58,159 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.667 seconds (JVM running for 10353.556)
+2019-05-07 16:47:02,917 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:47:02,934 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:47:02,935 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:47:02,937 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:47:02,937 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:47:02,938 INFO (MyShiroRealmService.java:42)- token带来的数据：  null
+2019-05-07 16:47:03,044 INFO (MyShiroRealmService.java:45)- user：null
+2019-05-07 16:47:03,044 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:47:24,921 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:47:24,922 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:47:24,922 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:47:24,922 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:47:24,923 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:47:24,923 INFO (MyShiroRealmService.java:42)- token带来的数据：  null
+2019-05-07 16:47:24,927 INFO (MyShiroRealmService.java:45)- user：null
+2019-05-07 16:47:24,927 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:47:58,188 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:47:58,189 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:47:58,189 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:47:58,189 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:47:58,190 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:47:58,190 INFO (MyShiroRealmService.java:42)- token带来的数据：  admin
+2019-05-07 16:47:58,341 INFO (MyShiroRealmService.java:45)- user：AdminInfo{id=1, name='admin', password='7500e860ab145a5c51f58e98db9de954', salt='null'}
+2019-05-07 16:47:58,342 INFO (MyShiroRealmService.java:47)- 从数据库中查询到的数据密码：7500e860ab145a5c51f58e98db9de954
+2019-05-07 16:47:58,351 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:49:45,060 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:49:45,061 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:49:45,061 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:49:45,061 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:49:45,062 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:49:45,062 INFO (MyShiroRealmService.java:42)- token带来的数据：  admin
+2019-05-07 16:49:45,064 INFO (MyShiroRealmService.java:45)- user：AdminInfo{id=1, name='admin', password='7500e860ab145a5c51f58e98db9de954', salt='null'}
+2019-05-07 16:49:45,064 INFO (MyShiroRealmService.java:47)- 从数据库中查询到的数据密码：7500e860ab145a5c51f58e98db9de954
+2019-05-07 16:49:45,065 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:50:22,914 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:50:22,915 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:50:22,915 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:50:22,915 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:50:22,915 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:50:22,916 INFO (MyShiroRealmService.java:42)- token带来的数据：  admin
+2019-05-07 16:50:22,918 INFO (MyShiroRealmService.java:45)- user：AdminInfo{id=1, name='admin', password='7500e860ab145a5c51f58e98db9de954', salt='null'}
+2019-05-07 16:50:22,918 INFO (MyShiroRealmService.java:47)- 从数据库中查询到的数据密码：7500e860ab145a5c51f58e98db9de954
+2019-05-07 16:50:22,918 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:50:27,245 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:50:27,245 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:50:27,245 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:50:27,245 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:50:27,246 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:50:27,246 INFO (MyShiroRealmService.java:42)- token带来的数据：  admin
+2019-05-07 16:50:27,249 INFO (MyShiroRealmService.java:45)- user：AdminInfo{id=1, name='admin', password='7500e860ab145a5c51f58e98db9de954', salt='null'}
+2019-05-07 16:50:27,249 INFO (MyShiroRealmService.java:47)- 从数据库中查询到的数据密码：7500e860ab145a5c51f58e98db9de954
+2019-05-07 16:50:27,250 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:58:49,301 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 7180 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 16:58:49,312 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 16:58:49,313 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 16:59:02,176 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 14.249 seconds (JVM running for 19.67)
+2019-05-07 16:59:07,184 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:59:07,190 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:59:07,191 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:59:07,192 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:59:07,193 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:59:07,193 INFO (MyShiroRealmService.java:42)- token带来的数据：  admin
+2019-05-07 16:59:07,478 INFO (MyShiroRealmService.java:45)- user：AdminInfo{id=1, name='admin', password='7500e860ab145a5c51f58e98db9de954', salt='null'}
+2019-05-07 16:59:07,478 INFO (MyShiroRealmService.java:47)- 从数据库中查询到的数据密码：7500e860ab145a5c51f58e98db9de954
+2019-05-07 16:59:07,482 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 16:59:33,752 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 16:59:33,753 INFO (FormAuthenticationFilterOverrite.java:37)- --------------isLoginRequest--------------
+2019-05-07 16:59:33,754 INFO (FormAuthenticationFilterOverrite.java:39)- --------------isLoginSubmission--------------
+2019-05-07 16:59:33,754 INFO (AuthenticatingFilterOverride.java:31)- --------executeLogin---------
+2019-05-07 16:59:33,755 INFO (AuthenticatingFilterOverride.java:41)- ----------我进来进行核对了信息----------------
+2019-05-07 16:59:33,755 INFO (MyShiroRealmService.java:42)- token带来的数据：  admin
+2019-05-07 16:59:33,759 INFO (MyShiroRealmService.java:45)- user：AdminInfo{id=1, name='admin', password='7500e860ab145a5c51f58e98db9de954', salt='null'}
+2019-05-07 16:59:33,759 INFO (MyShiroRealmService.java:47)- 从数据库中查询到的数据密码：7500e860ab145a5c51f58e98db9de954
+2019-05-07 16:59:33,760 INFO (AuthenticatingFilterOverride.java:66)- AuthenticatingFilterOverride--------onLoginFailure------
+2019-05-07 17:04:32,799 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 7180 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 17:04:32,800 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 17:04:32,801 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 17:04:35,240 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.478 seconds (JVM running for 352.734)
+2019-05-07 17:04:38,208 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 7180 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 17:04:38,208 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 17:04:38,208 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 17:04:47,337 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 7180 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 17:04:47,337 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 17:04:47,337 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 17:04:58,863 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 7180 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 17:04:58,865 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 17:04:58,865 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 17:05:08,871 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 7180 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 17:05:08,871 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 17:05:08,871 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 17:05:13,045 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 7180 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 17:05:13,045 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 17:05:13,045 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 17:05:15,216 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 7180 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 17:05:15,217 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 17:05:15,217 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 17:05:47,223 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 14912 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 17:05:47,226 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 17:05:47,226 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 17:07:00,482 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 15044 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 17:07:00,485 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 17:07:00,486 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 17:08:32,713 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12116 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 17:08:32,718 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 17:08:32,719 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:22:06,261 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 14492 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:22:06,290 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:22:06,291 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:24:37,818 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 14932 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:24:37,855 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:24:37,856 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:28:21,468 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12396 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:28:21,482 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:28:21,483 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:32:19,106 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12308 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:32:19,112 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:32:19,113 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:33:44,244 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12800 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:33:44,248 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:33:44,249 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:36:04,550 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:36:04,555 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:36:04,556 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:36:13,264 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 9.75 seconds (JVM running for 11.121)
+2019-05-07 21:36:58,082 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 21:36:58,124 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 21:36:58,125 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 21:36:58,125 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 21:36:58,128 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin,admin
+2019-05-07 21:36:59,061 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@84b5f5
+2019-05-07 21:38:25,767 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 21:38:25,773 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 21:38:25,774 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 21:38:25,775 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 21:38:25,775 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin,aaa
+2019-05-07 21:38:25,780 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@7ed73bde
+2019-05-07 21:38:49,676 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 21:38:49,678 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 21:38:49,679 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 21:38:49,679 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 21:38:49,680 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 21:38:49,727 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='7500e860ab145a5c51f58e98db9de954', salt='abcd'}
+2019-05-07 21:38:49,754 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@427f999f
+2019-05-07 21:42:53,224 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:42:53,224 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:42:53,225 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:42:56,804 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:42:56,805 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:42:56,805 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:43:04,745 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:43:04,747 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:43:04,747 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:43:07,873 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:43:07,874 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:43:07,874 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:43:11,669 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:43:11,671 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:43:11,671 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:43:14,622 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:43:14,622 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:43:14,622 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:43:18,284 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 3.683 seconds (JVM running for 436.141)
+2019-05-07 21:43:24,172 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 21:43:24,177 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 21:43:24,177 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 21:43:24,178 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 21:43:24,184 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 21:43:24,298 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='7500e860ab145a5c51f58e98db9de954', salt='abcd'}
+2019-05-07 21:43:24,300 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@7cc6af3c
+2019-05-07 21:44:36,509 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:44:36,509 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:44:36,510 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:44:55,463 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:44:55,464 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:44:55,464 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:44:57,315 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 21:44:57,316 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 21:44:57,316 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 21:45:00,228 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.939 seconds (JVM running for 538.085)
+2019-05-07 21:53:23,172 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 21:53:23,181 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 21:53:23,182 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 21:53:23,183 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 21:53:23,186 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 21:53:23,241 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='123456', salt='abcd'}
+2019-05-07 21:53:23,255 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@5070d4b8
+2019-05-07 21:57:02,046 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 21:57:02,490 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 21:57:02,491 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 21:57:02,492 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 21:57:02,493 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin1
+2019-05-07 21:57:02,521 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@2ce0757c
+2019-05-07 21:57:30,474 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 21:57:30,500 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 21:57:30,501 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 21:57:30,501 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 21:57:30,502 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 21:57:30,522 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='123456', salt='abcd'}
+2019-05-07 21:57:30,523 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@7c423c24
+2019-05-07 21:57:39,062 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 21:57:39,086 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 21:57:39,086 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 21:57:39,086 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 21:57:39,087 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 21:57:39,252 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='123456', salt='abcd'}
+2019-05-07 21:57:39,253 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@599d3763
+2019-05-07 22:01:49,844 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:01:49,844 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:01:49,844 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:01:53,897 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 4.25 seconds (JVM running for 1551.753)
+2019-05-07 22:07:06,300 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:07:06,301 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:07:06,301 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:07:09,668 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 3.443 seconds (JVM running for 1867.525)
+2019-05-07 22:07:24,582 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:07:24,582 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:07:24,582 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:07:28,366 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 3.878 seconds (JVM running for 1886.223)
+2019-05-07 22:07:42,150 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:07:42,167 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:07:42,168 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:07:42,168 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:07:42,173 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 22:07:42,239 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='123456', salt='abcd'}
+2019-05-07 22:07:42,240 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@643067e7
+2019-05-07 22:11:43,462 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:11:43,463 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:11:43,463 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:11:46,578 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 3.233 seconds (JVM running for 2144.434)
+2019-05-07 22:11:50,885 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12592 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:11:50,885 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:11:50,885 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:11:54,059 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 3.199 seconds (JVM running for 2151.916)
+2019-05-07 22:12:28,863 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 5612 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:12:28,954 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:12:28,955 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:12:38,223 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 14.494 seconds (JVM running for 20.702)
+2019-05-07 22:12:48,583 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:12:48,613 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:12:48,613 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:12:48,614 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:12:48,618 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 22:12:48,803 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='b1ba853525d0f30afe59d2d005aad96c', salt='abcd'}
+2019-05-07 22:12:48,826 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@39536dad
+2019-05-07 22:14:08,698 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:14:08,702 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:14:08,703 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:14:08,704 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:14:08,705 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 22:14:08,710 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='b1ba853525d0f30afe59d2d005aad96c', salt='admin'}
+2019-05-07 22:14:08,712 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@632b06b4
+2019-05-07 22:14:15,247 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:14:15,248 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:14:15,249 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:14:15,249 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:14:15,250 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 22:14:15,253 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='b1ba853525d0f30afe59d2d005aad96c', salt='admin'}
+2019-05-07 22:14:15,255 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@3d44c36a
+2019-05-07 22:16:15,596 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:16:15,598 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:16:15,599 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:16:15,600 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:16:15,600 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 22:16:15,604 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='b1ba853525d0f30afe59d2d005aad96c', salt='123'}
+2019-05-07 22:16:15,605 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@31f6ef9c
+2019-05-07 22:17:54,520 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:17:54,523 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:17:54,524 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:17:54,525 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:17:54,526 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 22:17:54,534 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@6160f51f
+2019-05-07 22:18:07,873 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:18:07,877 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:18:07,878 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:18:07,879 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:18:07,879 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：root
+2019-05-07 22:18:07,884 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='123'}
+2019-05-07 22:19:22,519 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@2030b5df
+2019-05-07 22:20:00,852 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 3900 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:20:00,864 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:20:00,864 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:20:07,794 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 15.517 seconds (JVM running for 28.659)
+2019-05-07 22:20:14,908 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:20:14,947 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:20:14,947 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:20:14,948 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:20:14,954 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：root
+2019-05-07 22:20:15,345 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='123'}
+2019-05-07 22:20:36,444 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@20ec9ef9
+2019-05-07 22:21:13,762 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:21:13,765 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:21:13,765 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:21:13,766 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:21:13,766 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 22:21:13,770 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='b1ba853525d0f30afe59d2d005aad96c', salt='123'}
+2019-05-07 22:21:13,771 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@72bf6e0b
+2019-05-07 22:21:26,170 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 11696 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:21:26,172 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:21:26,172 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:21:34,766 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 9.236 seconds (JVM running for 11.881)
+2019-05-07 22:21:38,361 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:21:38,393 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:21:38,393 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:21:38,393 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:21:38,397 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 22:21:38,583 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='b1ba853525d0f30afe59d2d005aad96c', salt='123'}
+2019-05-07 22:21:38,599 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@3be47acb
+2019-05-07 22:21:43,235 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:21:43,237 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:21:43,238 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:21:43,239 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:21:43,239 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 22:21:43,243 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='b1ba853525d0f30afe59d2d005aad96c', salt='123'}
+2019-05-07 22:21:43,244 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@7f9f3860
+2019-05-07 22:25:43,125 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 11696 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:25:43,126 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:25:43,126 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:25:46,110 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 3.127 seconds (JVM running for 263.225)
+2019-05-07 22:25:48,891 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 11696 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:25:48,891 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:25:48,892 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:25:52,289 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 3.444 seconds (JVM running for 269.403)
+2019-05-07 22:25:58,859 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 11696 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:25:58,860 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:25:58,860 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:26:02,466 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 3.674 seconds (JVM running for 279.58)
+2019-05-07 22:26:05,496 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 11696 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:26:05,496 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:26:05,497 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:26:08,105 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 2.683 seconds (JVM running for 285.219)
+2019-05-07 22:26:27,595 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 9716 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:26:27,601 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:26:27,602 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:26:34,671 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 7.887 seconds (JVM running for 10.88)
+2019-05-07 22:27:17,346 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 9716 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:27:17,346 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:27:17,346 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:27:28,458 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 6764 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:27:28,463 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:27:28,463 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:27:35,672 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 8.272 seconds (JVM running for 9.617)
+2019-05-07 22:27:36,644 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:27:36,683 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:27:36,684 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:27:36,685 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:27:36,692 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 22:27:37,011 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='b1ba853525d0f30afe59d2d005aad96c', salt='YWRtaW4='}
+2019-05-07 22:27:37,040 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@f8d7a32
+2019-05-07 22:28:22,760 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 14936 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:28:22,765 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:28:22,766 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:28:30,054 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 8.128 seconds (JVM running for 9.562)
+2019-05-07 22:28:39,716 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:28:39,746 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:28:39,747 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:28:39,747 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:28:39,750 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 22:28:39,881 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='b1ba853525d0f30afe59d2d005aad96c', salt='YWRtaW4='}
+2019-05-07 22:28:39,895 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@474390bb
+2019-05-07 22:32:56,564 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 14936 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:32:56,564 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:32:56,565 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:33:11,830 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 7988 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:33:11,841 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:33:11,842 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:33:22,950 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 12.048 seconds (JVM running for 14.241)
+2019-05-07 22:33:26,438 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:33:26,475 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:33:26,475 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:33:26,476 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:33:26,481 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：admin
+2019-05-07 22:33:26,787 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='admin', password='b1ba853525d0f30afe59d2d005aad96c', salt='YWRtaW4='}
+2019-05-07 22:33:26,803 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@1ff82589
+2019-05-07 22:47:07,677 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:47:07,711 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:47:07,713 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:47:07,713 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:47:07,713 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：root
+2019-05-07 22:47:07,736 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}
+2019-05-07 22:47:28,855 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@5c6b384e
+2019-05-07 22:49:36,262 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 7988 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:49:36,262 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:49:36,262 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:49:50,218 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 14.3 seconds (JVM running for 1001.509)
+2019-05-07 22:50:20,890 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 8084 (E:\study\javaProject\thesis_smartLock\target\classes started by HDH in E:\study\javaProject\thesis_smartLock)
+2019-05-07 22:50:20,919 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 22:50:20,920 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-07 22:50:29,693 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 13.548 seconds (JVM running for 21.391)
+2019-05-07 22:50:48,563 INFO (MySessionManager.java:44)- 默认方式获取sessionId
+2019-05-07 22:50:48,596 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-07 22:50:48,597 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-07 22:50:48,597 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-07 22:50:48,600 INFO (MyShiroRealm.java:40)- 表单传过来的用户名为：root
+2019-05-07 22:50:48,932 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}
+2019-05-07 22:51:10,158 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@2874c562

@@ -1,0 +1,54 @@
+2019-06-23 12:47:37,734 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 10216 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-23 12:47:37,742 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 12:47:37,742 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-23 12:47:43,158 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 6.039 seconds (JVM running for 7.953)
+2019-06-23 12:53:36,786 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 11992 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-23 12:53:36,790 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 12:53:36,791 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-23 12:53:41,318 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.263 seconds (JVM running for 6.357)
+2019-06-23 13:02:27,149 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 11236 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-23 13:02:27,153 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 13:02:27,154 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-23 13:02:31,843 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.44 seconds (JVM running for 6.57)
+2019-06-23 13:16:46,067 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 14276 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-23 13:16:46,071 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 13:16:46,071 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-23 13:16:50,242 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 4.92 seconds (JVM running for 5.898)
+2019-06-23 13:32:06,495 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 6680 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-23 13:32:06,499 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 13:32:06,500 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-23 13:32:10,629 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 4.864 seconds (JVM running for 5.874)
+2019-06-23 14:16:58,329 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 9944 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-23 14:16:58,333 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 14:16:58,333 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-23 14:17:02,950 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.414 seconds (JVM running for 6.507)
+2019-06-23 15:56:16,135 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 4136 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-23 15:56:16,140 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 15:56:16,141 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-23 15:56:20,778 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.406 seconds (JVM running for 6.714)
+2019-06-23 16:07:36,097 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 3148 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-23 16:07:36,102 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 16:07:36,102 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-23 16:07:40,472 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.307 seconds (JVM running for 6.504)
+2019-06-23 16:11:37,343 ERROR (GlobalExceptionHandler.java:79)- 其他异常：Required String parameter 'buildingName' is not present
+2019-06-23 16:11:41,201 ERROR (GlobalExceptionHandler.java:79)- 其他异常：Required String parameter 'buildingName' is not present
+2019-06-23 16:32:46,540 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 3976 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-23 16:32:46,544 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 16:32:46,545 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-23 16:32:51,146 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.418 seconds (JVM running for 6.428)
+2019-06-23 16:42:51,026 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 15952 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-23 16:42:51,029 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 16:42:51,030 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-23 16:42:55,431 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.231 seconds (JVM running for 6.271)
+2019-06-23 16:45:37,055 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 2012 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-23 16:45:37,060 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 16:45:37,060 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-23 16:45:41,535 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.179 seconds (JVM running for 6.218)
+2019-06-23 16:48:30,964 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 7096 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-23 16:48:30,967 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 16:48:30,968 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-23 16:48:34,971 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 4.766 seconds (JVM running for 6.241)
+2019-06-23 17:49:37,576 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1732 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-23 17:49:37,578 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 17:49:37,579 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-23 17:49:43,183 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 6.325 seconds (JVM running for 7.657)

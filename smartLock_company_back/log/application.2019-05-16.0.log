@@ -1,0 +1,399 @@
+2019-05-16 10:28:51,548 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 11276 (E:\study\javaProject\thesis\smartLock_company_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_company_back)
+2019-05-16 10:28:51,564 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 10:28:51,564 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-16 10:29:02,999 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 12.424 seconds (JVM running for 28.585)
+2019-05-16 10:29:13,595 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 10:29:13,883 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 10:29:13,892 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 10:29:13,892 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 10:29:13,899 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 10:29:14,184 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 10:29:14,226 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@448cf4f9
+2019-05-16 10:29:20,564 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 10:29:20,581 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 10:29:20,581 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 10:29:20,582 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 10:29:20,582 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 10:29:20,586 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 10:29:20,591 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@23e3ae8c
+2019-05-16 10:29:20,632 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 10:29:20,646 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-16 10:29:20,646 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 10:29:20,647 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 10:29:20,661 INFO (KaptchaController.java:55)- 6a83
+2019-05-16 10:29:22,729 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-16 10:29:42,470 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 10:29:42,483 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 10:29:42,484 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 10:29:42,485 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 10:29:42,485 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 10:29:42,489 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 10:29:43,206 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@257c1da1
+2019-05-16 12:33:52,279 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 12:33:53,564 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 12:33:53,631 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 12:33:53,632 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 12:33:53,632 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 12:33:53,846 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 12:33:53,897 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@5404df07
+2019-05-16 12:34:19,171 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 12:34:19,179 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 12:34:19,180 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 12:34:19,180 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 12:34:19,180 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 12:34:19,182 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 12:34:19,203 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@5d0297c5
+2019-05-16 12:34:19,234 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 12:34:19,314 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-16 12:34:19,333 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 12:34:19,333 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 12:34:19,345 INFO (KaptchaController.java:55)- bcde
+2019-05-16 12:34:19,677 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-16 12:35:19,183 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 12:35:19,246 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-16 12:35:19,246 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 12:35:19,247 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 12:35:19,251 INFO (KaptchaController.java:55)- d747
+2019-05-16 12:35:19,527 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-16 12:35:20,370 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 12:35:20,425 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-16 12:35:20,426 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 12:35:20,426 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 12:35:20,430 INFO (KaptchaController.java:55)- d2a3
+2019-05-16 12:35:20,456 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-16 15:03:24,323 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1832 (E:\study\javaProject\thesis\smartLock_company_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_company_back)
+2019-05-16 15:03:24,345 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 15:03:24,345 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-16 15:03:34,410 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 10.91 seconds (JVM running for 24.44)
+2019-05-16 15:52:18,968 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 8868 (E:\study\javaProject\thesis\smartLock_company_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_company_back)
+2019-05-16 15:52:19,003 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 15:52:19,004 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-16 15:52:31,904 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 14.029 seconds (JVM running for 17.963)
+2019-05-16 15:52:46,205 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 15:52:46,822 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 15:52:46,859 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=0926408b-8459-471a-b969-77d0ad3d2ae7
+2019-05-16 15:52:46,860 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 15:52:46,860 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 15:52:46,866 ERROR (GlobalExceptionHandler.java:33)- 未登陆/登陆超时，请登录后访问！
+2019-05-16 15:54:58,881 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 6456 (E:\study\javaProject\thesis\smartLock_company_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_company_back)
+2019-05-16 15:54:58,894 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 15:54:58,894 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-16 15:55:07,155 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 9.347 seconds (JVM running for 12.178)
+2019-05-16 15:55:41,086 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 15:55:41,463 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/score
+2019-05-16 15:55:41,463 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 15:55:41,463 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 15:55:41,651 ERROR (GlobalExceptionHandler.java:82)- 其他异常：could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-05-16 15:55:53,255 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 15:55:53,479 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/score
+2019-05-16 15:55:53,480 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 15:55:53,480 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 15:55:53,484 ERROR (GlobalExceptionHandler.java:82)- 其他异常：could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-05-16 15:58:59,552 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 5840 (E:\study\javaProject\thesis\smartLock_company_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_company_back)
+2019-05-16 15:58:59,557 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 15:58:59,557 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-16 15:59:05,917 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 7.141 seconds (JVM running for 10.407)
+2019-05-16 15:59:23,449 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 15:59:23,594 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/score
+2019-05-16 15:59:23,597 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 15:59:23,598 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 15:59:23,932 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@7d31ce67
+2019-05-16 16:00:04,054 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:00:04,067 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/score
+2019-05-16 16:00:04,067 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:00:04,067 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:00:04,090 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@745dfac2
+2019-05-16 16:00:13,011 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:00:13,019 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/score
+2019-05-16 16:00:13,020 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:00:13,020 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:00:13,027 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@cd67a75
+2019-05-16 16:00:15,500 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:00:15,510 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/score
+2019-05-16 16:00:15,511 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:00:15,511 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:00:15,517 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@44048fe9
+2019-05-16 16:00:17,740 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:00:17,750 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/score
+2019-05-16 16:00:17,750 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:00:17,751 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:00:17,756 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@52e4b75a
+2019-05-16 16:08:02,879 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:08:02,948 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/score
+2019-05-16 16:08:02,988 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:08:02,988 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:08:03,237 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@6f7379d4
+2019-05-16 16:08:09,469 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:08:09,530 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/score
+2019-05-16 16:08:09,549 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:08:09,550 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:08:09,556 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@3466e8f9
+2019-05-16 16:08:13,980 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:08:14,018 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/score
+2019-05-16 16:08:14,018 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:08:14,018 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:08:14,036 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@19f32a28
+2019-05-16 16:08:17,782 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:08:17,790 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/score
+2019-05-16 16:08:17,791 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:08:17,791 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:08:17,961 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@1505c940
+2019-05-16 16:10:32,509 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:10:32,522 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/score
+2019-05-16 16:10:32,522 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:10:32,522 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:10:32,565 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@5b0a4b7a
+2019-05-16 16:10:45,654 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:10:48,050 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:10:48,051 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:10:48,052 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:10:48,148 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:10:49,971 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:10:50,138 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@35b8c70a
+2019-05-16 16:10:50,184 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:10:50,212 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-16 16:10:50,212 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 16:10:50,213 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:10:50,389 INFO (KaptchaController.java:55)- 727e
+2019-05-16 16:11:10,222 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-16 16:11:17,059 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:11:17,292 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:11:17,293 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:11:17,293 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:11:17,293 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:11:17,372 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:11:17,627 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@44e70cd0
+2019-05-16 16:29:35,195 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:29:36,036 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:29:36,093 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:29:36,093 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:29:36,143 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:29:37,145 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:29:37,288 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@4d0a7192
+2019-05-16 16:29:49,288 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:29:49,895 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:29:49,896 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:29:49,896 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:29:49,896 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:29:49,937 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:29:49,978 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@365a94a0
+2019-05-16 16:29:50,191 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:29:50,436 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-16 16:29:50,474 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 16:29:50,474 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:29:50,624 INFO (KaptchaController.java:55)- e347
+2019-05-16 16:29:51,797 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-16 16:30:04,525 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:30:04,547 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:30:04,547 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:30:04,547 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:30:04,548 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:30:04,550 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:30:04,551 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@6db81228
+2019-05-16 16:30:04,635 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:30:04,667 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-16 16:30:04,667 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 16:30:04,667 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:30:04,674 INFO (KaptchaController.java:55)- b662
+2019-05-16 16:30:04,765 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-16 16:31:22,112 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:31:22,151 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:31:22,151 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:31:22,152 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:31:22,152 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:31:22,155 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:31:22,156 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@c4625e1
+2019-05-16 16:31:22,323 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:31:22,436 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-16 16:31:22,436 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 16:31:22,436 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:31:22,441 INFO (KaptchaController.java:55)- b244
+2019-05-16 16:31:22,611 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-16 16:32:41,242 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:32:41,280 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:32:41,281 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:32:41,281 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:32:41,281 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:32:41,306 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:32:41,333 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@33b537d
+2019-05-16 16:32:47,240 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:32:47,271 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:32:47,272 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:32:47,272 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:32:47,272 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:32:47,285 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:32:47,286 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@4a7ba7ab
+2019-05-16 16:32:47,304 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:32:47,325 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-16 16:32:47,326 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 16:32:47,326 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:32:47,331 INFO (KaptchaController.java:55)- b62e
+2019-05-16 16:32:47,386 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-16 16:33:30,411 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:33:30,468 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:33:30,468 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:33:30,469 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:33:30,469 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:33:30,492 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:33:30,499 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@1ee34710
+2019-05-16 16:33:34,486 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:33:34,529 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:33:34,530 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:33:34,530 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:33:34,530 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:33:34,540 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:33:34,542 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@6371a921
+2019-05-16 16:33:34,560 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:33:34,603 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-16 16:33:34,603 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 16:33:34,604 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:33:34,608 INFO (KaptchaController.java:55)- 28ec
+2019-05-16 16:33:34,654 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-16 16:33:46,528 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:33:46,537 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:33:46,538 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:33:46,538 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:33:46,538 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:33:46,541 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:33:46,622 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@3e5d34c2
+2019-05-16 16:33:46,640 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:33:46,950 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-16 16:33:46,951 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 16:33:46,951 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:33:46,955 INFO (KaptchaController.java:55)- 4e48
+2019-05-16 16:33:46,994 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-16 16:33:57,226 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:33:57,237 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:33:57,238 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:33:57,238 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:33:57,239 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:33:57,255 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:33:57,260 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@1ad8c1b6
+2019-05-16 16:48:17,082 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:48:19,664 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:48:19,711 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:48:19,712 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:48:19,749 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:48:20,727 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:48:20,953 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@4ae3b4e3
+2019-05-16 16:52:26,049 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:52:26,072 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:52:26,086 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:52:26,087 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:52:26,087 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:52:26,125 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:52:26,182 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@123bb209
+2019-05-16 16:52:39,413 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:52:39,454 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:52:39,454 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:52:39,688 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:52:39,689 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:52:40,591 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:52:40,592 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@2a211490
+2019-05-16 16:52:40,759 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:52:40,795 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-16 16:52:40,795 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 16:52:40,795 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:52:40,833 INFO (KaptchaController.java:55)- ba5c
+2019-05-16 16:52:41,677 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-16 16:52:52,770 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:52:52,950 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:52:52,951 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:52:52,951 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:52:52,952 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:52:52,977 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:52:53,061 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@2c19bd5c
+2019-05-16 16:52:53,199 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:52:53,244 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-05-16 16:52:53,304 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 16:52:53,304 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:52:53,310 INFO (KaptchaController.java:55)- c726
+2019-05-16 16:52:53,463 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-05-16 16:53:03,713 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:53:03,732 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:53:03,732 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:53:03,732 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:53:03,733 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:53:03,773 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:53:03,780 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@2e9f2669
+2019-05-16 16:53:54,122 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:53:54,142 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:53:54,142 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:53:54,142 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:53:54,142 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:53:54,145 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:53:54,152 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@541e94ae
+2019-05-16 16:54:27,160 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:54:27,194 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:54:27,194 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:54:27,194 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:54:27,194 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:54:27,248 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:54:27,256 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@5c92e2b0
+2019-05-16 16:57:30,405 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:57:30,507 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:57:30,508 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:57:30,508 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:57:30,509 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:57:30,562 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:57:30,569 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@645ade28
+2019-05-16 16:57:48,119 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:57:48,431 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:57:48,431 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:57:48,431 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:57:48,431 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:57:48,824 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:57:57,809 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@41472141
+2019-05-16 16:59:30,698 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 16:59:30,721 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 16:59:30,722 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 16:59:30,722 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 16:59:30,723 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 16:59:31,181 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 16:59:31,246 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@35402f78
+2019-05-16 17:05:23,412 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 17:05:23,720 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 17:05:23,721 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 17:05:23,721 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 17:05:23,726 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-16 17:05:23,769 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-16 17:05:23,783 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@3b2e13a
+2019-05-16 17:06:18,451 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 17:06:19,219 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-16 17:06:19,262 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 17:06:19,262 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 17:06:19,928 INFO (LogOutController.java:34)- sessionId62b9869f-3b87-49be-bb21-905ff4d70725
+2019-05-16 17:06:20,161 INFO (LogOutController.java:39)- jedis_key1
+2019-05-16 17:06:20,162 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-16 17:06:20,263 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@4bd896c1
+2019-05-16 17:07:35,214 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 5500 (E:\study\javaProject\thesis\smartLock_company_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_company_back)
+2019-05-16 17:07:35,220 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 17:07:35,221 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-05-16 17:07:46,388 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 11.995 seconds (JVM running for 30.651)
+2019-05-16 17:21:07,883 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 17:21:09,381 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 17:21:09,381 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 17:21:09,381 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 17:21:09,387 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin2
+2019-05-16 17:21:09,674 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}
+2019-05-16 17:21:09,692 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@5085f772
+2019-05-16 17:21:17,255 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 17:21:17,284 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-05-16 17:21:17,285 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 17:21:17,285 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 17:21:17,290 INFO (LogOutController.java:34)- sessionIdf4cba505-8a03-41e2-8d6d-04d0abf98d17
+2019-05-16 17:21:17,297 INFO (LogOutController.java:39)- jedis_key1
+2019-05-16 17:21:17,298 INFO (LogOutController.java:40)- --------数据已经删除--------
+2019-05-16 17:21:17,321 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@211a2ec3
+2019-05-16 17:21:29,707 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 17:21:29,956 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-05-16 17:21:29,957 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-05-16 17:21:29,957 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 17:21:30,007 INFO (WebLogAspect.java:56)- RESPONSE : [AdminInfo{id=1, username='root', password='b1ba853525d0f30afe59d2d005aad96c', salt='root'}, AdminInfo{id=2, username='aaa', password='123456', salt='abcd'}, AdminInfo{id=3, username='bbb', password='123456', salt='abcd'}, AdminInfo{id=4, username='haha', password='1b6c9998a81219c7764013701b9551ae', salt='haha'}, AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}, AdminInfo{id=6, username='admin1', password='5826c6b4f4f7b527b3d6ecd6f45401a9', salt='admin1'}, AdminInfo{id=7, username='admin2', password='c3270271f36e5e795e54c2721896102e', salt='admin2'}, AdminInfo{id=8, username='admin3', password='011fc8ac4227e4c4259a9de9d8431e5c', salt='admin3'}]
+2019-05-16 17:24:35,107 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-05-16 17:24:35,131 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-05-16 17:24:35,132 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-05-16 17:24:35,132 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-05-16 17:24:35,133 INFO (MyShiroRealm.java:40)- 前端传过来的用户名为：admin
+2019-05-16 17:24:35,135 INFO (MyShiroRealm.java:46)- user：AdminInfo{id=5, username='admin', password='038bdaf98f2037b31f1e75b5b4c9b26e', salt='admin'}
+2019-05-16 17:24:35,150 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@642e6ed9

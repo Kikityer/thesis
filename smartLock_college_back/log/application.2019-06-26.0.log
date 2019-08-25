@@ -1,0 +1,77 @@
+2019-06-26 09:10:12,766 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 9448 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 09:10:12,774 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 09:10:12,775 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 09:10:18,030 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.942 seconds (JVM running for 7.0)
+2019-06-26 13:24:39,287 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 1496 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 13:24:39,291 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 13:24:39,292 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 13:24:45,149 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 6.476 seconds (JVM running for 8.121)
+2019-06-26 13:44:28,009 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 8240 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 13:44:28,013 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 13:44:28,013 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 13:44:32,887 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.545 seconds (JVM running for 6.526)
+2019-06-26 13:47:06,602 ERROR (GlobalExceptionHandler.java:42)- 空指针异常：null
+2019-06-26 13:52:55,544 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 8504 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 13:52:55,550 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 13:52:55,550 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 13:53:00,071 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.255 seconds (JVM running for 6.223)
+2019-06-26 13:53:40,342 ERROR (GlobalExceptionHandler.java:79)- 其他异常：could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement
+2019-06-26 13:54:13,780 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 5088 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 13:54:13,784 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 13:54:13,785 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 13:54:18,262 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.363 seconds (JVM running for 6.704)
+2019-06-26 13:54:35,719 ERROR (GlobalExceptionHandler.java:79)- 其他异常：could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement
+2019-06-26 13:56:49,582 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 11348 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 13:56:49,586 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 13:56:49,586 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 13:56:53,946 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.158 seconds (JVM running for 6.275)
+2019-06-26 13:57:12,001 ERROR (GlobalExceptionHandler.java:79)- 其他异常：could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement
+2019-06-26 14:00:26,154 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 9788 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 14:00:26,158 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 14:00:26,159 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 14:00:30,581 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.325 seconds (JVM running for 6.293)
+2019-06-26 14:09:36,019 ERROR (GlobalExceptionHandler.java:42)- 空指针异常：null
+2019-06-26 14:13:47,872 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 9008 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 14:13:47,878 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 14:13:47,879 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 14:13:52,322 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.19 seconds (JVM running for 6.184)
+2019-06-26 14:13:59,712 ERROR (GlobalExceptionHandler.java:42)- 空指针异常：null
+2019-06-26 14:15:26,710 ERROR (GlobalExceptionHandler.java:42)- 空指针异常：null
+2019-06-26 14:24:26,162 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 10120 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 14:24:26,167 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 14:24:26,168 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 14:24:30,744 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.264 seconds (JVM running for 6.251)
+2019-06-26 14:24:52,662 ERROR (GlobalExceptionHandler.java:42)- 空指针异常：null
+2019-06-26 14:27:18,223 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 7252 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 14:27:18,228 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 14:27:18,228 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 14:27:23,517 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.996 seconds (JVM running for 7.02)
+2019-06-26 14:27:34,477 ERROR (GlobalExceptionHandler.java:42)- 空指针异常：null
+2019-06-26 14:28:44,935 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 14944 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 14:28:44,939 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 14:28:44,940 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 14:28:49,307 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.216 seconds (JVM running for 6.663)
+2019-06-26 14:28:58,376 ERROR (GlobalExceptionHandler.java:30)- no name
+2019-06-26 14:32:26,510 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 14492 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 14:32:26,514 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 14:32:26,515 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 14:32:31,011 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.271 seconds (JVM running for 6.248)
+2019-06-26 14:32:49,508 ERROR (GlobalExceptionHandler.java:42)- 空指针异常：null
+2019-06-26 14:34:10,152 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 11296 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 14:34:10,162 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 14:34:10,163 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 14:34:15,016 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.611 seconds (JVM running for 6.614)
+2019-06-26 14:34:22,651 ERROR (GlobalExceptionHandler.java:42)- 空指针异常：null
+2019-06-26 14:35:26,615 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 9936 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 14:35:26,624 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 14:35:26,626 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 14:35:31,087 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.284 seconds (JVM running for 6.246)
+2019-06-26 14:36:00,891 ERROR (GlobalExceptionHandler.java:42)- 空指针异常：null
+2019-06-26 14:37:35,422 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 3524 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 14:37:35,425 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 14:37:35,426 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 14:37:40,074 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.404 seconds (JVM running for 6.349)
+2019-06-26 14:53:23,014 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 14464 (E:\study\javaProject\thesis\smartLock_college_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_college_back)
+2019-06-26 14:53:23,018 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-26 14:53:23,019 INFO (SpringApplication.java:650)- The following profiles are active: dev
+2019-06-26 14:53:27,548 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 5.241 seconds (JVM running for 6.175)

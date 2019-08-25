@@ -1,0 +1,1097 @@
+2019-06-19 13:31:15,876 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 9632 (E:\study\javaProject\thesis\smartLock_company_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_company_back)
+2019-06-19 13:31:15,892 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-06-19 13:31:15,892 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-06-19 13:31:22,486 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 7.094 seconds (JVM running for 9.552)
+2019-06-19 13:34:40,588 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:34:40,670 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:34:40,697 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=b7cc62ec-d5fe-49be-803b-38f91b601fb8
+2019-06-19 13:34:40,697 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 13:34:40,698 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:34:40,709 ERROR (GlobalExceptionHandler.java:33)- no login
+2019-06-19 13:34:50,852 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:34:50,874 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-06-19 13:34:50,875 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 13:34:50,875 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:34:50,878 INFO (MyShiroRealm.java:39)- 前端传过来的用户名为：hdh
+2019-06-19 13:34:51,096 INFO (MyShiroRealm.java:45)- user：UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0)
+2019-06-19 13:34:51,115 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@35a4e0fe
+2019-06-19 13:34:51,148 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:34:51,151 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/img/getKaptchaImage
+2019-06-19 13:34:51,152 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 13:34:51,152 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:34:51,159 INFO (KaptchaController.java:55)- 45e5
+2019-06-19 13:34:52,016 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-06-19 13:35:06,857 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:35:06,861 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-06-19 13:35:06,861 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 13:35:06,861 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:35:06,862 INFO (MyShiroRealm.java:39)- 前端传过来的用户名为：hdh
+2019-06-19 13:35:06,865 INFO (MyShiroRealm.java:45)- user：UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0)
+2019-06-19 13:35:06,870 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@4a12d5
+2019-06-19 13:35:06,974 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:35:06,978 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 13:35:06,979 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 13:35:06,979 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:35:06,984 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:35:07,012 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 13:35:07,022 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginLog/saveLog
+2019-06-19 13:35:07,023 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 13:35:07,023 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:35:07,083 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-06-19 13:35:09,596 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:35:09,601 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:35:09,604 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 13:35:09,605 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 13:35:09,605 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:35:09,609 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 13:35:09,609 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 13:35:09,610 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:35:09,622 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 13:35:09,650 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 13:35:18,360 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:35:18,363 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 13:35:18,363 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 13:35:18,364 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:35:18,364 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:35:18,369 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 13:35:18,370 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 13:35:18,370 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:35:18,372 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 13:35:18,387 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 13:35:20,933 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:35:20,936 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 13:35:20,937 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:35:20,937 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 13:35:20,937 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:35:20,939 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 13:35:20,940 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 13:35:20,940 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:35:20,945 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 13:35:20,954 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 13:35:42,312 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:35:42,315 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 13:35:42,315 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 13:35:42,316 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:35:42,317 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:35:42,320 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 13:35:42,320 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 13:35:42,321 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:35:42,324 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 13:35:42,332 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 13:37:26,425 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:37:26,429 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 13:37:26,430 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 13:37:26,432 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:37:26,440 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 13:39:25,618 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:39:25,621 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 13:39:25,622 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 13:39:25,622 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:39:25,628 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 13:39:25,632 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 13:39:25,639 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 13:39:25,640 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 13:39:25,640 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 13:39:25,654 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 15:14:05,586 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 13308 (E:\study\javaProject\thesis\smartLock_company_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_company_back)
+2019-06-19 15:14:05,604 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-06-19 15:14:05,607 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-06-19 15:14:12,277 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 7.59 seconds (JVM running for 8.683)
+2019-06-19 15:15:30,180 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:15:30,180 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:15:30,181 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:15:30,247 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:15:30,248 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:15:30,248 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:15:30,276 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=61741d15-2fe1-46d5-9f46-f58e746a51eb
+2019-06-19 15:15:30,276 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=77880eb2-a279-4863-a2c5-965402ad26f9
+2019-06-19 15:15:30,276 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=e2412796-63ef-45c6-b40c-ddfb3d09a518
+2019-06-19 15:15:30,276 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:15:30,277 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:15:30,276 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:15:30,277 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:15:30,278 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:15:30,279 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:15:30,288 ERROR (GlobalExceptionHandler.java:33)- no login
+2019-06-19 15:15:30,288 ERROR (GlobalExceptionHandler.java:33)- no login
+2019-06-19 15:15:30,290 ERROR (GlobalExceptionHandler.java:33)- no login
+2019-06-19 15:15:35,770 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:15:35,789 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-06-19 15:15:35,790 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 15:15:35,791 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:15:35,793 INFO (MyShiroRealm.java:39)- 前端传过来的用户名为：hdh
+2019-06-19 15:15:35,947 INFO (MyShiroRealm.java:45)- user：UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0)
+2019-06-19 15:15:35,964 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@70418800
+2019-06-19 15:15:36,049 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:15:36,053 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:15:36,054 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:15:36,055 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:15:36,062 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:15:36,086 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:15:36,104 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginLog/saveLog
+2019-06-19 15:15:36,104 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 15:15:36,105 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:15:36,144 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-06-19 15:15:38,199 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:15:38,207 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:15:38,207 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 15:15:38,208 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 15:15:38,208 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:15:38,218 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 15:15:38,218 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 15:15:38,219 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:15:38,224 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 15:15:38,251 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 15:15:39,392 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:15:39,395 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:15:39,396 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:15:39,396 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:15:39,406 ERROR (GlobalExceptionHandler.java:45)- 空指针异常：null
+2019-06-19 15:16:59,719 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 13860 (E:\study\javaProject\thesis\smartLock_company_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_company_back)
+2019-06-19 15:16:59,746 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-06-19 15:16:59,749 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-06-19 15:17:05,918 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 7.098 seconds (JVM running for 8.698)
+2019-06-19 15:17:21,690 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:17:21,690 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:17:21,842 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:17:21,843 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:17:21,844 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:17:21,844 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:17:21,844 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:17:21,845 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:17:22,041 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:17:22,046 ERROR (GlobalExceptionHandler.java:45)- 空指针异常：null
+2019-06-19 15:18:23,052 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 12768 (E:\study\javaProject\thesis\smartLock_company_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_company_back)
+2019-06-19 15:18:23,056 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-06-19 15:18:23,056 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-06-19 15:18:29,411 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 7.198 seconds (JVM running for 8.295)
+2019-06-19 15:18:37,703 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:18:37,714 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:18:37,782 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:18:37,783 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:18:37,783 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:18:37,783 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:18:37,783 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:18:37,784 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:18:38,001 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:18:38,006 ERROR (GlobalExceptionHandler.java:45)- 空指针异常：null
+2019-06-19 15:22:04,443 INFO (StartupInfoLogger.java:50)- Starting SmartlockApplication on DESKTOP-FABLG4D with PID 6748 (E:\study\javaProject\thesis\smartLock_company_back\target\classes started by HDH in E:\study\javaProject\thesis\smartLock_company_back)
+2019-06-19 15:22:04,451 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-06-19 15:22:04,451 INFO (SpringApplication.java:679)- The following profiles are active: dev
+2019-06-19 15:22:10,825 INFO (StartupInfoLogger.java:59)- Started SmartlockApplication in 7.223 seconds (JVM running for 8.474)
+2019-06-19 15:22:18,001 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:22:18,001 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:22:18,083 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:22:18,084 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:22:18,084 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:22:18,085 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:22:18,085 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:22:18,086 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:22:18,300 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:22:18,307 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:23:23,548 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:23:23,551 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:23:23,552 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:23:23,553 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:23:23,567 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:23:28,563 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:23:28,566 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:23:28,567 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:23:28,567 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:23:28,577 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:23:28,585 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:23:28,588 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:23:28,589 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:23:28,589 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:23:28,599 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:34:06,619 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:34:06,625 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:34:06,626 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:34:06,627 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:34:06,638 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:34:09,227 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:34:09,226 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:34:09,232 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:34:09,232 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:34:09,233 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:34:09,237 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:34:09,238 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:34:09,239 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:34:09,244 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:34:09,245 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:44:43,144 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:44:43,150 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:44:43,151 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:44:43,151 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:44:43,155 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:44:43,158 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:44:43,159 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:44:43,159 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:44:43,159 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:44:43,166 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:46:26,751 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:46:26,755 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:46:26,755 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:46:26,756 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:46:26,762 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:46:26,762 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:46:26,767 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:46:26,768 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:46:26,768 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:46:26,775 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:47:14,022 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:47:14,024 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:47:14,024 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:47:14,025 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:47:14,031 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:47:14,033 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:47:14,036 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:47:14,037 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:47:14,037 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:47:14,044 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:50:13,344 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:50:13,347 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:50:13,348 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:50:13,348 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:50:13,354 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:50:13,358 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:50:13,363 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:50:13,364 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:50:13,364 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:50:13,373 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:51:35,826 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:51:35,830 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:51:35,831 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:51:35,831 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:51:35,838 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:51:35,838 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:51:35,841 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:51:35,843 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:51:35,844 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:51:35,850 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:54:10,313 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:54:10,317 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:54:10,317 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:54:10,318 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:54:10,325 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:54:10,327 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:54:10,328 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:54:10,329 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:54:10,329 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:54:10,338 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:54:22,282 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:54:22,284 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:54:22,285 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:54:22,285 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:54:22,290 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:54:22,293 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:54:22,295 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:54:22,296 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:54:22,297 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:54:22,304 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:55:54,573 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:55:54,575 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:55:54,576 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:55:54,576 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:55:54,582 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:55:54,591 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:55:54,598 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:55:54,606 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:55:54,607 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:55:54,612 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:56:25,050 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:56:25,052 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:56:25,053 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:56:25,053 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:56:25,059 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:56:25,059 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:56:25,062 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:56:25,062 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:56:25,063 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:56:25,070 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:57:09,778 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:57:09,780 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:57:09,780 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:57:09,781 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:57:09,786 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:57:09,789 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:57:09,791 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:57:09,791 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:57:09,792 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:57:09,797 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 15:57:56,492 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:57:56,494 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 15:57:56,495 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:57:56,495 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:57:56,500 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 15:57:56,501 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 15:57:56,503 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 15:57:56,504 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 15:57:56,504 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 15:57:56,511 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 16:02:40,990 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 16:02:40,995 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 16:02:40,995 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 16:02:40,996 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 16:02:40,999 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 16:02:41,001 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 16:02:41,002 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 16:02:41,003 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 16:02:41,004 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 16:02:41,010 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 16:02:54,640 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 16:02:54,643 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 16:02:54,643 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 16:02:54,644 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 16:02:54,651 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 16:02:54,651 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 16:02:54,652 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 16:02:54,653 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 16:02:54,653 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 16:02:54,659 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 16:03:11,083 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 16:03:11,085 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 16:03:11,086 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 16:03:11,086 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 16:03:11,091 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 16:03:11,093 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 16:03:11,096 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 16:03:11,096 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 16:03:11,097 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 16:03:11,102 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 16:48:35,137 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 16:48:35,181 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 16:48:35,197 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=ae947d05-3557-4968-b5f7-3447de2e12a3
+2019-06-19 16:48:35,198 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 16:48:35,199 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 16:48:35,223 ERROR (GlobalExceptionHandler.java:33)- no login
+2019-06-19 17:08:57,712 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 17:08:57,722 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 17:08:57,738 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 17:08:57,742 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-06-19 17:08:57,742 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 17:08:57,743 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 17:08:57,744 ERROR (GlobalExceptionHandler.java:33)- no login
+2019-06-19 17:08:57,754 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 17:08:57,758 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth
+2019-06-19 17:08:57,759 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 17:08:57,759 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 17:08:57,760 ERROR (GlobalExceptionHandler.java:33)- no login
+2019-06-19 17:09:04,558 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 17:09:04,600 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-06-19 17:09:04,600 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 17:09:04,600 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 17:09:04,606 INFO (MyShiroRealm.java:39)- 前端传过来的用户名为：hdh
+2019-06-19 17:09:04,667 INFO (MyShiroRealm.java:45)- user：UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0)
+2019-06-19 17:09:04,682 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@319da3c6
+2019-06-19 17:09:04,756 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 17:09:04,759 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 17:09:04,760 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 17:09:04,761 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 17:09:04,766 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 17:09:04,768 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 17:09:04,818 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginLog/saveLog
+2019-06-19 17:09:04,819 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 17:09:04,819 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 17:09:04,882 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-06-19 17:09:07,228 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 17:09:07,231 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 17:09:07,231 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 17:09:07,232 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 17:09:07,232 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 17:09:07,241 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 17:09:07,243 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 17:09:07,244 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 17:09:07,244 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 17:09:07,278 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 17:09:08,393 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 17:09:08,396 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 17:09:08,397 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 17:09:08,397 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 17:09:08,403 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 17:09:14,371 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 17:09:14,373 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 17:09:14,374 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 17:09:14,375 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 17:09:14,376 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 17:09:14,379 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 17:09:14,379 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 17:09:14,379 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 17:09:14,381 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 17:09:14,389 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 19:46:51,818 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:46:51,827 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:46:51,832 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:46:51,891 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:46:51,894 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:46:51,900 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:46:51,908 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=c9e9cd56-8e22-41f7-9bcc-46c9dfce8a99
+2019-06-19 19:46:51,910 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 19:46:51,911 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:46:51,911 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=1f9985d0-bd79-43a6-90fa-47acf0233c27
+2019-06-19 19:46:51,912 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 19:46:51,913 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:46:51,914 ERROR (GlobalExceptionHandler.java:33)- no login
+2019-06-19 19:46:51,908 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=1ef7264e-c2c6-4176-8b07-b8a5d013274d
+2019-06-19 19:46:51,917 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 19:46:51,919 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:46:51,919 ERROR (GlobalExceptionHandler.java:33)- no login
+2019-06-19 19:46:51,923 ERROR (GlobalExceptionHandler.java:33)- no login
+2019-06-19 19:47:04,195 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:04,201 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-06-19 19:47:04,202 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 19:47:04,202 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:04,203 INFO (MyShiroRealm.java:39)- 前端传过来的用户名为：hdh
+2019-06-19 19:47:04,219 INFO (MyShiroRealm.java:45)- user：UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0)
+2019-06-19 19:47:04,221 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@68b4070f
+2019-06-19 19:47:04,286 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:04,290 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 19:47:04,290 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 19:47:04,291 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:04,297 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:04,298 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 19:47:04,302 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginLog/saveLog
+2019-06-19 19:47:04,303 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 19:47:04,303 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:04,318 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-06-19 19:47:06,705 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:06,708 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 19:47:06,708 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 19:47:06,709 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:06,709 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:06,712 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 19:47:06,713 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 19:47:06,713 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:06,716 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 19:47:06,727 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 19:47:08,519 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:08,522 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 19:47:08,523 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 19:47:08,524 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:08,529 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 19:47:11,505 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:11,508 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 19:47:11,508 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 19:47:11,508 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:11,509 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:11,512 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 19:47:11,512 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 19:47:11,513 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:11,513 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 19:47:11,522 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 19:47:12,755 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:12,757 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 19:47:12,758 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 19:47:12,758 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:12,762 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 19:47:15,465 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:15,468 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 19:47:15,468 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 19:47:15,468 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:15,469 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:15,471 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 19:47:15,472 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 19:47:15,472 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:15,473 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 19:47:15,482 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 19:47:16,753 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:16,755 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 19:47:16,755 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 19:47:16,755 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:16,759 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 19:47:25,727 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:25,729 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 19:47:25,729 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 19:47:25,730 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:25,730 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:25,733 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 19:47:25,733 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 19:47:25,734 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:25,734 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 19:47:25,744 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 19:47:27,438 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:27,440 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 19:47:27,441 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 19:47:27,441 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:27,445 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 19:47:34,006 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:34,008 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 19:47:34,009 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 19:47:34,009 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:34,010 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:34,013 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 19:47:34,014 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 19:47:34,014 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 19:47:34,014 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:34,025 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 19:47:35,708 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 19:47:35,710 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 19:47:35,710 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 19:47:35,711 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 19:47:35,714 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:27:41,406 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:27:41,417 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:27:41,421 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginUnAuth;JSESSIONID=ede44553-6141-4067-ab48-59231494e41b
+2019-06-19 21:27:41,422 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:27:41,422 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:27:41,423 ERROR (GlobalExceptionHandler.java:33)- no login
+2019-06-19 21:27:48,363 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:27:48,365 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/user/login
+2019-06-19 21:27:48,366 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 21:27:48,366 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:27:48,367 INFO (MyShiroRealm.java:39)- 前端传过来的用户名为：hdh
+2019-06-19 21:27:48,371 INFO (MyShiroRealm.java:45)- user：UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0)
+2019-06-19 21:27:48,373 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@18841702
+2019-06-19 21:27:48,436 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:27:48,438 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:27:48,439 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:27:48,439 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:27:48,444 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:27:48,445 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:27:48,456 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginLog/saveLog
+2019-06-19 21:27:48,456 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 21:27:48,457 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:27:48,467 INFO (WebLogAspect.java:56)- RESPONSE : null
+2019-06-19 21:27:51,387 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:27:51,389 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 21:27:51,390 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 21:27:51,390 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:27:51,393 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:27:51,395 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 21:27:51,396 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 21:27:51,396 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 21:27:51,397 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:27:51,407 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 21:27:55,406 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:27:55,411 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/revise/phoneNum
+2019-06-19 21:27:55,411 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 21:27:55,412 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:27:55,426 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.shiro.ReturnResult@66db8714
+2019-06-19 21:27:58,328 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:27:58,330 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/loginLog/getLog
+2019-06-19 21:27:58,331 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 21:27:58,331 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:27:58,349 INFO (WebLogAspect.java:56)- RESPONSE : [LoginLogInfoDTO(loginTime=2019-06-19 21:27:48, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-06-19 19:47:04, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-06-19 17:09:05, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-06-19 15:15:36, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-06-19 13:35:07, loginLocation=安徽省合肥市  (210.45.209.*)), LoginLogInfoDTO(loginTime=2019-06-12 22:28:50, loginLocation=安徽省合肥市  (210.45.209.*))]
+2019-06-19 21:28:03,553 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:28:03,555 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:28:03,555 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:28:03,556 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:28:03,559 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:28:06,302 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:28:06,304 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 21:28:06,305 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 21:28:06,305 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:28:06,306 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:28:06,308 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 21:28:06,308 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 21:28:06,309 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:28:06,309 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 21:28:06,319 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 21:28:07,308 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:28:07,310 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:28:07,311 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:28:07,311 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:28:07,315 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:28:16,509 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:28:16,511 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:28:16,512 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:28:16,512 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:28:16,517 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:28:16,519 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:28:16,522 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:28:16,522 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:28:16,522 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:28:16,527 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:41:12,407 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:41:12,411 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:41:12,411 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:41:12,412 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:41:12,416 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:41:14,298 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:41:14,301 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:41:14,302 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:41:14,303 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:41:14,307 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:41:41,830 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:41:41,832 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:41:41,832 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:41:41,832 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:41:41,836 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:41:41,842 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:41:41,845 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:41:41,846 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:41:41,846 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:41:41,851 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:43:27,645 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:43:27,647 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:43:27,648 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:43:27,648 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:43:27,653 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:43:27,655 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:43:27,658 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:43:27,658 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:43:27,658 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:43:27,662 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:44:00,285 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:44:00,287 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:44:00,287 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:44:00,287 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:44:00,291 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:44:00,297 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:44:00,299 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:44:00,300 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:44:00,300 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:44:00,304 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:44:07,343 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:44:07,345 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:44:07,346 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:44:07,346 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:44:07,349 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:44:07,353 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:44:07,356 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:44:07,356 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:44:07,356 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:44:07,360 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:44:21,540 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:44:21,541 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:44:21,542 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:44:21,543 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:44:21,547 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:44:21,549 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:44:21,552 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:44:21,552 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:44:21,553 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:44:21,558 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:46:29,719 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:46:29,721 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:46:29,722 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:46:29,722 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:46:29,727 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:46:29,727 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:46:29,730 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:46:29,730 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:46:29,731 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:46:29,735 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:46:51,519 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:46:51,520 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:46:51,521 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:46:51,521 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:46:51,526 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:46:51,529 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:46:51,531 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:46:51,531 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:46:51,532 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:46:51,537 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:48:17,512 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:48:17,514 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:48:17,514 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:48:17,514 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:48:17,520 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:48:17,524 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:48:17,527 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:48:17,527 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:48:17,527 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:48:17,532 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:49:24,699 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:49:24,701 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:49:24,702 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:49:24,703 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:49:24,708 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:49:24,708 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:49:24,711 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:49:24,712 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:49:24,712 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:49:24,717 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:51:05,560 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:51:05,563 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:51:05,564 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:51:05,564 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:51:05,569 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:51:05,574 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:51:05,577 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:51:05,578 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:51:05,578 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:51:05,583 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:51:24,420 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:51:24,423 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:51:24,423 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:51:24,424 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:51:24,429 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:51:24,432 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:51:24,434 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:51:24,434 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:51:24,434 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:51:24,440 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:53:05,167 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:53:05,170 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:53:05,170 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:53:05,170 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:53:05,175 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:53:05,178 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:53:05,181 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:53:05,181 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:53:05,182 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:53:05,188 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:53:44,994 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:53:44,996 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:53:44,997 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:53:44,997 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:53:45,002 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:53:45,016 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:53:45,019 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:53:45,019 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:53:45,020 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:53:45,024 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:55:13,241 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:55:13,244 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:55:13,244 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:55:13,244 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:55:13,249 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:55:13,250 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:55:13,252 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:55:13,253 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:55:13,253 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:55:13,257 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:55:35,513 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:55:35,515 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:55:35,515 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:55:35,516 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:55:35,520 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:55:35,523 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:55:35,525 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:55:35,526 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:55:35,526 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:55:35,530 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:56:10,453 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:56:10,456 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:56:10,456 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:56:10,456 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:56:10,460 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:56:10,462 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:56:10,464 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:56:10,465 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:56:10,465 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:56:10,468 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:56:34,228 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:56:34,230 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:56:34,230 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:56:34,231 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:56:34,234 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:56:34,245 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:56:34,247 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:56:34,248 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:56:34,248 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:56:34,253 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:56:49,448 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:56:49,451 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:56:49,451 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:56:49,452 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:56:49,456 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:56:49,460 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:56:49,462 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:56:49,463 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:56:49,463 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:56:49,466 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:57:15,192 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:57:15,194 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:57:15,195 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:57:15,195 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:57:15,199 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:57:15,203 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:57:15,206 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:57:15,206 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:57:15,207 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:57:15,211 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:57:37,297 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:57:37,300 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:57:37,300 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:57:37,301 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:57:37,305 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:57:37,310 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:57:37,312 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:57:37,313 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:57:37,313 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:57:37,318 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:58:01,323 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:58:01,325 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 21:58:01,326 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 21:58:01,326 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:58:01,329 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 21:58:01,332 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:58:01,335 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 21:58:01,335 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 21:58:01,336 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:58:01,345 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 21:58:17,302 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:58:17,304 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 21:58:17,305 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 21:58:17,305 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:58:17,308 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:58:17,309 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 21:58:17,311 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 21:58:17,312 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 21:58:17,312 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:58:17,320 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 21:58:18,751 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:58:18,753 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:58:18,754 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:58:18,754 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:58:18,759 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:58:25,267 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:58:25,270 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 21:58:25,271 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 21:58:25,271 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:58:25,273 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:58:25,275 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 21:58:25,276 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 21:58:25,276 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 21:58:25,276 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:58:25,285 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 21:58:27,008 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:58:27,010 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:58:27,010 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:58:27,011 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:58:27,015 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 21:59:39,531 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:59:39,533 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 21:59:39,534 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:59:39,534 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:59:39,538 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 21:59:39,543 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 21:59:39,546 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 21:59:39,547 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 21:59:39,547 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 21:59:39,552 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:00:23,465 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:00:23,467 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:00:23,467 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:00:23,467 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:00:23,471 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:00:23,471 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:00:23,473 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:00:23,474 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:00:23,474 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:00:23,479 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:04:25,784 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:04:25,788 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:04:25,789 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:04:25,789 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:04:25,794 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:04:25,807 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:04:25,810 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:04:25,811 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:04:25,811 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:04:25,815 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:04:39,943 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:04:39,945 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:04:39,946 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:04:39,946 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:04:39,949 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:04:39,955 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:04:39,958 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:04:39,958 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:04:39,962 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:04:39,966 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:05:12,302 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:05:12,305 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:05:12,305 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:05:12,305 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:05:12,309 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:05:15,362 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:05:15,364 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:05:15,365 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:05:15,365 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:05:15,369 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:05:15,378 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:05:15,381 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:05:15,382 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:05:15,382 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:05:15,386 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:05:50,143 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:05:50,145 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:05:50,145 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:05:50,145 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:05:50,149 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:05:50,149 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:05:50,152 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:05:50,152 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:05:50,153 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:05:50,157 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:06:01,534 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:06:01,536 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:06:01,536 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:06:01,536 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:06:01,540 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:06:01,543 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:06:01,546 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:06:01,546 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:06:01,546 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:06:01,550 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:12:14,328 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:12:14,332 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:12:14,333 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:12:14,333 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:12:14,338 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:12:17,033 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:12:17,035 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:12:17,036 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:12:17,036 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:12:17,040 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:12:17,043 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:12:17,046 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:12:17,046 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:12:17,047 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:12:17,052 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:14:04,897 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:14:04,899 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:14:04,900 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:14:04,900 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:14:04,904 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:14:04,906 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:14:04,909 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:14:04,909 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:14:04,909 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:14:04,915 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:17:03,335 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:17:03,338 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:17:03,338 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:17:03,339 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:17:03,343 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:17:03,371 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:17:03,374 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:17:03,374 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:17:03,375 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:17:03,379 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:17:16,700 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:17:16,703 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:17:16,703 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:17:16,703 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:17:16,708 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:17:16,710 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:17:16,710 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:17:16,711 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:17:16,711 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:17:16,716 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:22:19,071 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:22:19,073 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:22:19,074 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:22:19,074 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:22:19,079 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:22:19,081 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:22:19,081 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:22:19,082 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:22:19,082 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:22:19,087 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:25:14,401 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:25:14,404 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:25:14,404 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:25:14,405 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:25:14,409 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:25:14,410 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:25:14,411 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:25:14,412 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:25:14,412 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:25:14,417 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:26:24,621 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:26:24,623 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:26:24,624 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:26:24,624 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:26:24,628 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:26:24,635 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:26:24,637 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:26:24,637 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:26:24,638 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:26:24,642 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:28:14,669 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:28:14,672 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:28:14,672 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:28:14,672 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:28:14,676 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:28:18,122 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:28:18,124 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 22:28:18,125 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 22:28:18,125 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:28:18,127 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:28:18,129 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 22:28:18,129 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 22:28:18,130 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 22:28:18,130 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:28:18,141 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 22:28:19,164 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:28:19,168 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:28:19,169 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:28:19,170 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:28:19,177 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:28:29,821 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:28:29,824 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:28:29,824 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:28:29,825 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:28:29,829 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:28:29,833 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:28:29,836 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:28:29,836 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:28:29,837 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:28:29,841 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:28:46,142 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:28:46,144 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:28:46,144 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:28:46,145 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:28:46,148 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:28:46,151 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:28:46,153 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:28:46,154 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:28:46,154 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:28:46,159 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:29:03,551 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:29:03,553 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:29:03,553 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:29:03,554 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:29:03,557 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:29:03,559 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:29:03,561 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:29:03,561 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:29:03,562 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:29:03,565 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:29:12,117 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:29:12,119 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 22:29:12,119 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 22:29:12,119 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:29:12,123 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 22:29:12,123 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:29:12,125 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 22:29:12,126 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 22:29:12,126 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:29:12,134 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 22:29:18,596 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:29:18,598 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolName
+2019-06-19 22:29:18,599 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 22:29:18,599 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:29:18,600 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:29:18,602 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getSchoolInfo
+2019-06-19 22:29:18,602 INFO (WebLogAspect.java:49)- HTTP_METHOD : POST
+2019-06-19 22:29:18,603 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:29:18,603 INFO (WebLogAspect.java:56)- RESPONSE : [安徽大学（磐苑校区）, 合肥工业大学（翡翠湖校区）, 中国科技大学, 安徽师范大学, 黄山学院, 合肥学院, 北京大学, 北京航空航天大学, 北京师范大学, 中国人民大学, 北京交通大学, 北京邮电大学, 中央财经大学, 中国政法大学, 北京体育大学, 中央民族大学, 南京大学, 东南大学, 南京航空航天大学, 湖南大学, 长沙学院, 山东大学, 上海体育学院]
+2019-06-19 22:29:18,611 INFO (WebLogAspect.java:56)- RESPONSE : Page 1 of 3 containing com.hdh.smartlock.entity.CustomerEntity instances
+2019-06-19 22:29:19,887 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:29:19,889 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:29:19,890 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:29:19,890 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:29:19,894 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:29:47,185 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:29:47,187 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/getAll
+2019-06-19 22:29:47,187 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:29:47,187 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:29:47,191 INFO (WebLogAspect.java:56)- RESPONSE : [UserRegisterEntity(id=1, username=admin, userPhoneNum=18356894256, userPassword=123456, userCreateTime=2019-05-26 12:50:43.0), UserRegisterEntity(id=2, username=hdhda, userPhoneNum=14255651521, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 12:55:37.0), UserRegisterEntity(id=3, username=hdhfgs, userPhoneNum=18234545664, userPassword=a6cff2b38978416866c997d3962c5225, userCreateTime=2019-05-29 14:10:56.0), UserRegisterEntity(id=4, username=hdh, userPhoneNum=18375335898, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-29 14:43:37.0), UserRegisterEntity(id=5, username=ahu, userPhoneNum=18375335899, userPassword=cfe97dd93637b1894e2fad3d713322e0, userCreateTime=2019-05-29 19:49:35.0), UserRegisterEntity(id=6, username=aaa, userPhoneNum=11111111111, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-05-31 19:39:05.0), UserRegisterEntity(id=7, username=nih, userPhoneNum=18375335890, userPassword=7058486d59cd4eaf9d4e581687c83d88, userCreateTime=2019-06-04 14:21:16.0)]
+2019-06-19 22:29:47,192 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:29:47,195 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/customerInfo/getEchartData
+2019-06-19 22:29:47,195 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:29:47,196 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:29:47,199 INFO (WebLogAspect.java:56)- RESPONSE : [{山东省=1, 江苏省=3, 上海市=1, 湖南省=2, 北京市=10, 安徽省=6}, {2019=4, 2018=18, 2017=1}, {中央财经大学=2350, 南京大学=234, 安徽大学（磐苑校区）=2200, 中国人民大学=2500, 北京航空航天大学=2560, 北京大学=1701, 中国政法大学=1800, 中国科技大学=2200, 北京交通大学=2034, 北京体育大学=2324, 湖南大学=111, 长沙学院=223, 南京航空航天大学=2345, 安徽师范大学=3000, 合肥工业大学（翡翠湖校区）=2500, 上海体育学院=1520, 合肥学院=1500, 北京邮电大学=3425, 中央民族大学=2344, 黄山学院=1563, 北京师范大学=2052, 东南大学=967, 山东大学=1611}]
+2019-06-19 22:29:59,008 INFO (MySessionManager.java:45)- 默认方式获取sessionId
+2019-06-19 22:29:59,017 INFO (WebLogAspect.java:48)- URL : http://localhost:8082/out/logout
+2019-06-19 22:29:59,017 INFO (WebLogAspect.java:49)- HTTP_METHOD : GET
+2019-06-19 22:29:59,017 INFO (WebLogAspect.java:50)- IP : 0:0:0:0:0:0:0:1
+2019-06-19 22:29:59,026 INFO (LogOutController.java:41)- sessionIdede44553-6141-4067-ab48-59231494e41b
+2019-06-19 22:29:59,028 INFO (LogOutController.java:45)- jedis_key1
+2019-06-19 22:29:59,028 INFO (LogOutController.java:46)- --------数据已经删除--------
+2019-06-19 22:29:59,050 INFO (WebLogAspect.java:56)- RESPONSE : com.hdh.smartlock.util.ResultMsg@37810d2e
